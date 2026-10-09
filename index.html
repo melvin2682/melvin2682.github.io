@@ -4,11 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Melvin Pang · Administration &amp; Operations Manager · CV</title>
-<meta name="description" content="Melvin Pang, Malaysian administration and operations manager based in Phnom Penh. 15 years across HR, office operations and hospitality. Seeking Administration, Operations or Facilities Manager roles in Malaysia, Cambodia and New Zealand. Available now.">
+<meta name="description" content="Administration & operations manager in Phnom Penh. HR and admin for ~1,000 staff, two office openings, resort GM. Open to roles in Malaysia, Cambodia, NZ.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://melvin2682.github.io/">
-<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#121211" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#333034">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
@@ -34,7 +33,7 @@
 <link rel="preload" href="assets/fonts/playfair.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/work-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/playfair-italic.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" as="image" href="assets/img/hero-720.webp" imagesrcset="assets/img/hero-480.webp 480w, assets/img/hero-720.webp 720w, assets/img/hero-1024.webp 1024w" imagesizes="(max-width: 899px) 100vw, 36vw" fetchpriority="high">
+<link rel="preload" as="image" href="assets/img/hero-720.webp" imagesrcset="assets/img/hero-480.webp 480w, assets/img/hero-720.webp 720w, assets/img/hero-840.webp 840w, assets/img/hero-1024.webp 1024w" imagesizes="(max-width: 899px) 100vw, 36vw" fetchpriority="high">
 <script>
 (function(d){var r=d.documentElement;r.className+=' js';
  if(!window.matchMedia||!matchMedia('(prefers-reduced-motion: reduce)').matches){r.className+=' motion';}
@@ -63,7 +62,7 @@
 }
 @media (prefers-color-scheme:dark){
   :root{--bg:#121211;--bg-alt:#1b1b19;--ink:#ecebe7;--muted:rgba(236,235,231,.72);--subtle:rgba(236,235,231,.36);
-    --line:rgba(236,235,231,.18);--line-strong:rgba(236,235,231,.4);--inv:#0a0a09;--inv-ink:#ecebe7;--inv-muted:rgba(236,235,231,.74);--inv-line:rgba(236,235,231,.22);
+    --line:rgba(236,235,231,.18);--line-strong:rgba(236,235,231,.4);--inv:#232125;--inv-ink:#ecebe7;--inv-muted:rgba(236,235,231,.74);--inv-line:rgba(236,235,231,.22);
     --ink-strong:#ffffff;--nav-bg:rgba(18,18,17,.96);--media-bg:#242422;--chip-bg:rgba(18,18,17,.9);--chip-ink:#ecebe7;--toast-bg:#ecebe7;--toast-ink:#121211;--plate:#2e2f2b;color-scheme:dark}
 }
 *,*::before,*::after{box-sizing:border-box}
@@ -154,27 +153,28 @@ em{font-style:italic}
 .ledger div+div{padding-left:1.25rem;border-left:1px dashed var(--line)}
 .ledger dt{font-size:.85rem;color:var(--muted);margin-bottom:.35rem}
 .ledger dd{margin:0;font-size:.95rem;line-height:1.45}
-.plate{grid-column:8 / 13;position:relative;margin:0;align-self:center;display:flex;flex-direction:column}
-.plate .frame{position:relative;width:100%;aspect-ratio:2/3;max-height:calc(100svh - var(--nav) - 96px);overflow:hidden}
+@media (min-width:900px) and (max-width:1100px){.ledger{grid-template-columns:1fr}.ledger div,.ledger div+div{padding:.7rem 0;border-left:0}.ledger div+div{border-top:1px dashed var(--line)}}
+.plate{grid-column:8 / 13;position:relative;margin:0;align-self:start;padding-top:1rem;display:flex;flex-direction:column}
+.plate .frame{position:relative;height:min(calc(100svh - var(--nav) - 96px),calc((100vw - 2 * var(--pad)) * .42 * 1.5),820px);aspect-ratio:2/3;max-width:100%;margin-inline:auto;overflow:hidden}
 /* the hero is a studio: its colour is the photo's backdrop, so the photo's edges dissolve into it */
 .hero,.nav.on-stage{--bg:#333034;--ink:#f1efe9;--muted:rgba(241,239,233,.76);--subtle:rgba(241,239,233,.42);--line:rgba(241,239,233,.2);--line-strong:rgba(241,239,233,.42);--ink-strong:#ffffff;--nav-bg:rgba(51,48,52,.97);--inv:#232125;--inv-line:rgba(241,239,233,.2);color:var(--ink)}
 .hero{background:var(--bg)}
 .nav{transition:background-color var(--dur) var(--ease),border-color var(--dur) var(--ease)}
 .nav.on-stage{color:var(--ink)}
-.plate .pimg{--fx:12%;--fy:7%;--fb:16%;-webkit-mask-image:linear-gradient(to right,transparent,#000 var(--fx),#000 calc(100% - var(--fx)),transparent),linear-gradient(to bottom,transparent,#000 var(--fy),#000 calc(100% - var(--fb)),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 var(--fx),#000 calc(100% - var(--fx)),transparent),linear-gradient(to bottom,transparent,#000 var(--fy),#000 calc(100% - var(--fb)),transparent);mask-composite:intersect}
+.plate .pimg{--fx:12%;--fy:2.5%;--fb:16%;-webkit-mask-image:linear-gradient(to right,transparent,#000 var(--fx),#000 calc(100% - var(--fx)),transparent),linear-gradient(to bottom,transparent,#000 var(--fy),#000 calc(100% - var(--fb)),transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 var(--fx),#000 calc(100% - var(--fx)),transparent),linear-gradient(to bottom,transparent,#000 var(--fy),#000 calc(100% - var(--fb)),transparent);mask-composite:intersect}
 .plate .pimg{position:absolute;inset:0}
-@media (max-width:899px){.plate .pimg{--fx:6%;--fy:4%;--fb:12%}}
-.plate img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;transform-origin:50% 60%}
+@media (max-width:899px){.plate .pimg{--fx:6%;--fy:2%;--fb:10%}}
+.plate img{width:100%;height:100%;object-fit:cover;object-position:50% 0;transform-origin:50% 60%}
 .plate figcaption{display:flex;justify-content:space-between;gap:1rem;padding-top:.75rem;font-size:.82rem;color:var(--muted)}
 @media (min-width:900px){.hero .status{margin-bottom:1.25rem}.hero h1{font-size:clamp(3.4rem,6.6vw,5.4rem)}.role{margin-bottom:1.25rem}.lead{margin-bottom:1.75rem}.ctas{margin-bottom:2rem}.aud{margin-top:1.5rem}}
 @media (max-width:899px){
   .hero{padding-top:calc(var(--nav) + 16px)}
   .hero .wrap{display:flex;flex-direction:column;align-items:stretch;min-height:0}
   .hero-copy{display:contents}
-  .hero-copy .status{order:0}.hero h1{order:1}.role{order:2;margin-bottom:1.25rem}.plate{order:3;margin:0 0 1.5rem}.ctas{order:4;margin-bottom:1.25rem}.aud{order:5}.ledger{order:6;margin-bottom:1.5rem}.lead{order:7;margin-bottom:0}
+  .hero-copy .status{order:0}.hero h1{order:1}.role{order:2;margin-bottom:1rem}.lead{order:3;margin-bottom:1.25rem}.ctas{order:4;margin-bottom:1.75rem}.plate{order:5;margin:0 0 1.5rem}.aud{order:6}.ledger{order:7;margin-bottom:0}
   .plate{align-self:stretch}
-  .plate .frame{aspect-ratio:7/10;max-height:none}
-  .plate img{object-position:50% 30%}
+  .plate .frame{height:auto;width:100%;aspect-ratio:7/10}
+  .plate img{object-position:50% 0}
   .ledger{grid-template-columns:1fr}
   .ledger div,.ledger div+div{padding:.9rem 0;border-left:0}
   .ledger div+div{border-top:1px dashed var(--line)}
@@ -185,15 +185,23 @@ em{font-style:italic}
 .otr-copy{grid-column:1 / 6;grid-row:1;align-self:start}
 .otr-copy h2{font-size:clamp(2.1rem,4.4vw,3.6rem);line-height:1.06;margin:0 0 1.25rem;text-wrap:balance}
 .otr-p{color:var(--muted);max-width:40ch;margin:0;font-size:1.05rem;line-height:1.65}
-.otr figure{margin:0}
-.otr figure img{width:100%;height:auto;border-radius:3px;background:var(--media-bg,#ddd)}
-.otr figcaption{padding-top:.6rem;font-size:.82rem;color:var(--muted)}
+/* the two hobby shots are printed photos: white border, caption on the print, a slight tilt */
+.otr figure{margin:0;position:relative;background:#fbfbfa;padding:clamp(10px,1.1vw,16px) clamp(10px,1.1vw,16px) 0;box-shadow:0 1px 2px rgba(0,0,0,.12),0 22px 44px -22px rgba(0,0,0,.45);rotate:var(--tilt,0deg);transition:rotate .6s var(--ease)}
+.otr figure:hover{rotate:0deg}
+.otr figure img{display:block;width:100%;height:auto;background:#d9d9d6}
+.otr figcaption{padding:.7rem .15rem .85rem;font:italic 400 clamp(.95rem,1.2vw,1.1rem)/1.2 var(--f-display);color:#2a2a28}
+.otr-ride{--tilt:-1.2deg}
+.otr-ride figcaption{text-align:right}
+.otr-fish{--tilt:2.2deg;z-index:2;margin-right:-9%!important}
+@media (prefers-reduced-motion:reduce){.otr figure,.seg-pill,.thumb img,.btn .ar,summary::after,.nav{transition:none!important}}
+@media print{.otr figure{rotate:none;box-shadow:none}.clist dd a{min-height:0}}
 .otr-ride{grid-column:6 / 13;grid-row:1 / span 2}
 .otr-fish{grid-column:1 / 6;grid-row:2;align-self:end}
 @media (max-width:899px){
   .otr-copy{grid-column:1 / -1;position:static}
   .otr-ride{grid-column:1 / -1;grid-row:auto}
-  .otr-fish{grid-column:3 / -1;grid-row:auto;align-self:auto}
+  .otr-fish{grid-column:3 / -1;grid-row:auto;align-self:auto;margin:-8% 0 0!important}
+  .otr-ride{--tilt:-1deg}.otr-fish{--tilt:2deg}
 }
 .print-only{display:none}
 @media print{.print-only{display:block}}
@@ -345,7 +353,7 @@ em{font-style:italic}
 .motion .hero h1 .w>span{animation:rise 1.05s var(--ease) both}
 .motion .hero h1 .w:nth-child(2)>span{animation-delay:.11s}
 .motion .hero [data-rv]{animation:up .95s var(--ease) both;animation-delay:calc(.26s + var(--d,0) * 90ms)}
-.motion .plate img{animation:settle 1.6s var(--ease) both}
+@media (min-width:900px){.motion .plate .pimg{animation:settle 1.6s var(--ease) both}}
 
 @media print{
   @page{size:A4;margin:14mm 14mm 16mm}
@@ -408,6 +416,9 @@ em{font-style:italic}
 .seg button{position:relative;z-index:1;min-height:46px;border:0;border-radius:999px;background:transparent;color:var(--inv-muted);font:500 .88rem/1.1 var(--f-body);padding:0 .4rem;cursor:pointer;transition:color var(--dur) var(--ease)}
 .seg button:hover{color:var(--inv-ink)}
 .seg button[aria-pressed="true"]{color:var(--inv)}
+.seg:not(.ready) button[aria-pressed="true"]{background:var(--inv-ink)}
+:root:not(.js) .aud,:root:not(.js) .lang,:root:not(.js) .copybtn,:root:not(.js) .menu-btn{display:none!important}
+main:focus,main:focus-visible{outline:none}
 .seg button:focus-visible{outline-color:var(--inv-ink);outline-offset:-3px}
 .seg-pill{position:absolute;left:0;top:0;width:0;height:0;border-radius:999px;background:var(--inv-ink);box-shadow:0 6px 18px -6px rgba(0,0,0,.5);transition:transform .55s var(--ease)}
 .tag{margin:.7rem .35rem 0;font:400 clamp(1.1rem,1.4vw,1.3rem)/1.3 var(--f-display);color:var(--inv-ink);min-height:1.3em;font-variant-numeric:lining-nums}
@@ -540,7 +551,7 @@ em{font-style:italic}
       <p class="kick status" data-rv style="--d:0"><span data-i="eyebrow">Available now · Curriculum vitae 2026</span></p>
       <h1 id="h1"><span class="w"><span>Melvin</span></span> <span class="w"><span>Pang</span></span></h1>
       <p class="role" data-rv style="--d:1" data-i="role">Administration &amp; Operations Manager</p>
-      <p class="lead" data-rv style="--d:2" data-a="lead">Fifteen years running offices, people and properties across Malaysia, Cambodia and Southeast Asia. I opened <strong>two offices on US$800,000</strong>, ran <strong>HR and payroll for about 1,000 staff</strong>, and kept <strong>200+ properties on a 15-minute response</strong>.</p>
+      <p class="lead" data-rv style="--d:2" data-a="lead">Five years as the founder’s right hand at a ~1,000-person group: <strong>two offices opened on US$800,000</strong>, <strong>funds, VIPs and confidential files</strong>, and <strong>weekly reporting in Mandarin and English</strong>. Before that, a resort with full P&amp;L.</p>
       <p class="print-contact"><a href="https://wa.me/60125272682">+60 12-527 2682 (WhatsApp)</a> · <a href="tel:+85585272672">+855 85 272 672</a> · <a href="mailto:melvinpang910629@gmail.com">melvinpang910629@gmail.com</a> · WeChat melvin_0629 · <a href="https://melvin2682.github.io/">melvin2682.github.io</a></p>
       <div class="ctas" data-rv style="--d:3">
         <a class="btn solid" id="cta-a" href="assets/Melvin-Pang-CV.pdf" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
@@ -555,17 +566,17 @@ em{font-style:italic}
         <p class="aud-l" id="aud-l"><span data-i="audL">Reading as</span> <span class="sr" data-i="audH">Changes the headline, case order and the WhatsApp opener.</span></p>
         <div class="seg">
           <span class="seg-pill" aria-hidden="true"></span>
-          <button type="button" data-aud="hr" aria-pressed="true"><span data-i="aHR">Recruiter</span></button>
-          <button type="button" data-aud="founder" aria-pressed="false"><span data-i="aF">Founder</span></button>
+          <button type="button" data-aud="hr" aria-pressed="false"><span data-i="aHR">Recruiter</span></button>
+          <button type="button" data-aud="founder" aria-pressed="true"><span data-i="aF">Founder</span></button>
           <button type="button" data-aud="creative" aria-pressed="false"><span data-i="aC">Creative</span></button>
           <button type="button" data-aud="client" aria-pressed="false"><span data-i="aK">Client</span></button>
         </div>
-        <p class="tag" data-a="tag" aria-live="polite">HR and admin for 1,000 people. <em>Already done.</em></p>
+        <p class="tag" data-a="tag" aria-live="polite">Why hire four when you can hire one? <em>HR, admin, operations and visuals, with no hand-offs between them.</em></p>
       </div>
     </div>
     <figure class="plate">
       <div class="frame"><div class="pimg">
-        <img src="assets/img/hero-720.webp" srcset="assets/img/hero-480.webp 480w, assets/img/hero-720.webp 720w, assets/img/hero-1024.webp 1024w" sizes="(max-width: 899px) 100vw, 36vw" width="720" height="1080" alt="Melvin Pang leaning on stacked white letter blocks that spell MELVIN" data-ialt="portraitA" id="portrait" fetchpriority="high">
+        <img src="assets/img/hero-720.webp" srcset="assets/img/hero-480.webp 480w, assets/img/hero-720.webp 720w, assets/img/hero-840.webp 840w, assets/img/hero-1024.webp 1024w" sizes="(max-width: 899px) 100vw, 36vw" width="720" height="1080" alt="Melvin Pang leaning on stacked white letter blocks that spell MELVIN" data-ialt="portraitA" id="portrait" fetchpriority="high">
       </div></div>
       <figcaption><span data-i="plate1">Melvin Pang, Phnom Penh</span><span data-i="plate2">15 years · 6 countries</span></figcaption>
     </figure>
@@ -588,9 +599,20 @@ em{font-style:italic}
       <div class="t">
         <h2 id="h-results" data-i="rH" data-rv>Four results I can evidence</h2>
       </div>
-      <p class="aside" data-i="rP" data-rv>Each number comes with names, dates and documents at interview.</p>
+      <p class="aside" data-i="rP" data-rv>Details and referees for every number, at interview.</p>
     </div>
     <ol class="results">
+      <li class="result" data-case="offices" data-rv>
+        <p class="val"><span class="num" data-i="n800">US$800K</span><span class="unit" data-i="r2u">capital across two offices</span></p>
+        <div class="body">
+          <h3 data-i="r2t">Two offices opened on budget and on time</h3>
+          <p class="meta" data-i="r2m">Philippines 2022 · Singapore 2024–25</p>
+          <dl>
+            <div><dt data-i="did">What I did</dt><dd data-i="r2d">Sourced the sites, negotiated the leases and ran the renovations. Planned the floor layouts and furnished both the offices and the staff housing, with equipment and procurement through to opening day.</dd></div>
+            <div><dt data-i="res">Result</dt><dd data-i="r2r">Both offices opened on budget and on time, on capital budgets of US$300,000 and US$500,000.</dd></div>
+          </dl>
+        </div>
+      </li>
       <li class="result" data-case="permits" data-rv>
         <p class="val"><span class="num">0</span><span class="unit" data-i="r1u">working days lost to lapsed permits</span></p>
         <div class="body">
@@ -602,14 +624,14 @@ em{font-style:italic}
           </dl>
         </div>
       </li>
-      <li class="result" data-case="offices" data-rv>
-        <p class="val"><span class="num" data-i="n800">US$800K</span><span class="unit" data-i="r2u">capital across two offices</span></p>
+      <li class="result" data-case="resort" data-rv>
+        <p class="val"><span class="num">80%+</span><span class="unit" data-i="r4u">average occupancy</span></p>
         <div class="body">
-          <h3 data-i="r2t">Two offices opened on budget and on time</h3>
-          <p class="meta" data-i="r2m">Philippines 2022 · Singapore 2024–25</p>
+          <h3 data-i="r4t">A boutique resort run with full P&amp;L</h3>
+          <p class="meta" data-i="r4m">The Acres Resort · Prunus Hotels · Malaysia · 2019–21</p>
           <dl>
-            <div><dt data-i="did">What I did</dt><dd data-i="r2d">Sourced the sites, negotiated the leases, planned layouts and ran fit-out, furniture, equipment and procurement through to opening. Found and furnished staff housing.</dd></div>
-            <div><dt data-i="res">Result</dt><dd data-i="r2r">Both offices opened on budget and on time, on capital budgets of US$300,000 and US$500,000.</dd></div>
+            <div><dt data-i="did">What I did</dt><dd data-i="r4d">Set the budget, owned revenue and costs, and ran rates and distribution on Cloudbeds, Booking.com, Agoda, Expedia and Traveloka, with a team of 20 across seven departments.</dd></div>
+            <div><dt data-i="res">Result</dt><dd data-i="r4r">Averaged 80%+ occupancy, and kept the property maintained and upgraded through the 2020–21 lockdown closures.</dd></div>
           </dl>
         </div>
       </li>
@@ -621,17 +643,6 @@ em{font-style:italic}
           <dl>
             <div><dt data-i="did">What I did</dt><dd data-i="r3d">Led an operations team of 10–20 across check-ins, turnarounds, housekeeping and security standards, and carried the 24-hour escalation phone for guests, owners and site teams.</dd></div>
             <div><dt data-i="res">Result</dt><dd data-i="r3r">Every incident answered within 15 minutes for three and a half years, while the portfolio grew from under 100 to 200+ properties.</dd></div>
-          </dl>
-        </div>
-      </li>
-      <li class="result" data-case="resort" data-rv>
-        <p class="val"><span class="num">80%+</span><span class="unit" data-i="r4u">average occupancy</span></p>
-        <div class="body">
-          <h3 data-i="r4t">A boutique resort run with full P&amp;L</h3>
-          <p class="meta" data-i="r4m">The Acres Resort · Prunus Hotels · Malaysia · 2019–21</p>
-          <dl>
-            <div><dt data-i="did">What I did</dt><dd data-i="r4d">Set the budget, owned revenue and costs, and ran rates and distribution on Cloudbeds, Booking.com, Agoda, Expedia and Traveloka, with a team of 20 across seven departments.</dd></div>
-            <div><dt data-i="res">Result</dt><dd data-i="r4r">Averaged 80%+ occupancy, and kept the property maintained and upgraded through the 2020–21 lockdown closures.</dd></div>
           </dl>
         </div>
       </li>
@@ -661,7 +672,7 @@ em{font-style:italic}
           <li data-i="e1c">Ran the company fleet, asset register, business licences and insurance; reported weekly to the founder and managed an operating fund of over US$50,000 a month.</li>
           <li data-i="e1d">Delivered a 2025 company convention in Vietnam for about 1,000 attendees, on budget and with no major incidents.</li>
           <li data-i="e1e">From 2024, led a visual marketing team of 2–3: a bilingual product campaign, print, brand video and an AI-built client website.</li>
-          <li data-i="e1f">Quality-checked a seven-language technical publication against the Chinese master; caught a missing page before print.</li>
+          <li data-i="e1f">Quality-checked a seven-language technical publication against the Chinese master using AI tools; caught a missing page before print.</li>
         </ul>
       </li>
       <li class="job" data-rv>
@@ -729,11 +740,11 @@ em{font-style:italic}
     </div>
     <ul class="pf" role="list">
       <li class="pf-reel" data-rv><button type="button" class="tile" data-proj="xavier" aria-haspopup="dialog">
-        <span class="thumb"><img src="assets/img/xavier-reel-poster.webp" width="360" height="640" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Film</span></span></span>
-        <span class="cap"><b data-i="p1t">Xavier Studio · reel</b><span data-i="p1m">Direction and edit</span></span></button></li>
+        <span class="thumb"><img src="assets/img/xavier-reel-poster.webp" width="360" height="640" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
+        <span class="cap"><b data-i="p1t">Xavier Studio · reel</b><span data-i="p1m">Direction · 8-second teaser</span></span></button></li>
       <li class="pf-film" data-rv><button type="button" class="tile" data-proj="auracell-film" aria-haspopup="dialog">
-        <span class="thumb"><img src="assets/img/auracell-film-poster.webp" width="854" height="480" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Film</span></span></span>
-        <span class="cap"><b data-i="p2t">AURACELL · product film</b><span data-i="p2m">Direction · AI-generated footage</span></span></button></li>
+        <span class="thumb"><img src="assets/img/auracell-film-poster.webp" width="854" height="480" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
+        <span class="cap"><b data-i="p2t">AURACELL · product film</b><span data-i="p2m">Direction · AI footage · 6-second teaser</span></span></button></li>
       <li class="pf-site" data-rv><button type="button" class="tile" data-proj="auracell-site" aria-haspopup="dialog">
         <span class="thumb"><img src="assets/img/auracell-site-640.webp" width="640" height="325" loading="lazy" decoding="async" alt=""></span>
         <span class="cap"><b data-i="p3t">AURACELL · landing page</b><span data-i="p3m">Skincare launch site</span></span></button></li>
@@ -760,7 +771,7 @@ em{font-style:italic}
     <dl class="facts" data-rv>
       <div class="wide"><dt data-i="d1k">Languages</dt><dd><ul>
         <li><b data-i="lgEn">English</b><span data-i="pro">Professional</span></li>
-        <li><b lang="zh-Hans">中文 <span class="sr" data-i="lgZhSr">Mandarin</span></b><span data-i="pro">Professional</span></li>
+        <li><b data-i="lgZh">Mandarin Chinese</b><span data-i="pro">Professional</span></li>
         <li><b data-i="lgMs">Bahasa Malaysia</b><span data-i="con">Conversational</span></li>
         <li><b data-i="lgYue">Cantonese</b><span data-i="con">Conversational</span></li>
       </ul></dd></div>
@@ -781,7 +792,7 @@ em{font-style:italic}
     <div class="otr-copy">
       <p class="kick" data-rv data-i="otrK">Off the record</p>
       <h2 id="h-life" data-rv data-i="otrH">Weekends are for open water and open road.</h2>
-      <p class="otr-p" data-rv data-i="otrP">Fishing teaches patience: read the conditions, don’t rush the catch. The road teaches nerve and judgement at speed. Both come to work with me.</p>
+      <p class="otr-p" data-rv data-i="otrP">Fishing teaches patience: read the conditions, don’t rush the catch. The road teaches judgement and calm under pressure. Both come to work with me.</p>
     </div>
     <figure class="otr-ride" data-rv>
       <img src="assets/img/ride-1024.webp" srcset="assets/img/ride-640.webp 640w, assets/img/ride-1024.webp 1024w" sizes="(max-width: 899px) 100vw, 58vw" width="1024" height="889" loading="lazy" decoding="async" alt="Melvin on his motorcycle at sunset on a mountain road" data-ialt="rideA">
@@ -798,7 +809,7 @@ em{font-style:italic}
   <div class="wrap">
     <div class="copy">
       <p class="kick" data-i="cEy" data-rv>Contact</p>
-      <h2 id="h-contact" data-a="cH" data-rv>Hiring for administration or operations? <em>Let’s talk this week.</em></h2>
+      <h2 id="h-contact" data-a="cH" data-rv>Need a right hand who runs the place? <em>Let’s talk this week.</em></h2>
       <p class="intro" data-i="cP" data-rv>Based in Phnom Penh, available now and open to relocation. Write in English, Mandarin, Bahasa Malaysia or Cantonese.</p>
       <dl class="clist" data-rv>
         <div><dt>WhatsApp</dt><dd><a href="https://wa.me/60125272682" data-wa rel="noopener" target="_blank">+60 12-527 2682<span class="sr" data-i="newtab"> (opens in a new tab)</span></a></dd></div>

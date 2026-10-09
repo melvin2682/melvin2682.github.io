@@ -15,20 +15,20 @@
     cvNav: '简历', menu: '目录', menuClose: '关闭', cta1: '下载简历', cta2: '联系我',
     eyebrow: '即可到岗 · 2026 年简历',
     role: '行政与运营经理',
-    lead: '十五年来，我在马来西亚、柬埔寨及东南亚负责办公室、团队与物业的运营。曾以<strong>80 万美元开设两间办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并让<strong>200 多个物业保持 15 分钟响应</strong>。',
+    lead: '工作十五年，近十年在马来西亚、柬埔寨及东南亚负责运营、团队与物业管理。曾以 <strong>80 万美元开设两间办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并在 <strong>200 多个物业规模下坚持 15 分钟内响应</strong>。',
     l1k: '求职方向', l1v: '行政经理、运营经理或设施经理',
     l2k: '目标地区', l2v: '马来西亚 · 柬埔寨 · 新西兰（需雇主担保 AEWV 工作签证）',
     l3k: '常驻', l3v: '柬埔寨金边 · 马来西亚籍 · 持有柬埔寨工作准证',
-    portraitA: 'Melvin Pang 倚靠着拼出 MELVIN 的白色字母方块', otrK: '工作之外', otrH: '周末，<wbr>留给开阔的<wbr>水面和公路。', otrP: '钓鱼教会我耐心：先读懂环境，别急着收线。骑车教会我胆识，以及在速度中做判断。这两样，我都带到了工作里。', rideC: '在路上', fishC: '周末在水上', rideA: '日落时分，Melvin 骑着摩托车停在山路上', fishA: 'Melvin 在湖边钓鱼', plate1: 'Melvin Pang，金边', plate2: '15 年 · 6 个国家',
+    portraitA: 'Melvin Pang 倚靠着拼出 MELVIN 的白色字母方块', otrK: '工作之外', otrH: '周末，<wbr>留给开阔的<wbr>水面和公路。', otrP: '钓鱼教会我耐心：先读懂环境，别急着收线。骑车教会我判断力，以及在压力下保持冷静。这两样，我都带到了工作里。', rideC: '在路上', fishC: '周末在水上', rideA: '日落时分，Melvin 骑着摩托车停在山路上', fishA: 'Melvin 在湖边钓鱼', plate1: 'Melvin Pang，金边', plate2: '15 年 · 6 个国家',
     pEy: '简介',
     pText: '过去五年，管理层有事最先交代给我：员工档案、外籍员工工作准证、高层差旅，以及<em>下一间办公室的预算。</em>在此之前，我全面负责一间度假村的损益，并管理一个超过 200 个物业的短租组合。我用中英文工作，指令传达不走样。',
-    rEy: '成果', rH: '四项可以佐证的成果', rP: '每个数字，面试时都能提供对应的人名、日期和文件。',
+    rEy: '成果', rH: '四项可以佐证的成果', rP: '每个数字的细节与推荐人，面试时均可提供。',
     did: '我做了什么', res: '结果',
     r1u: '个工作日因准证过期而损失', r1t: '150 多名外籍员工，每份准证都按时续签', r1m: '区域贸易集团 · 柬埔寨 · 2021–26',
     r1d: '用续签追踪表管理每一份工作准证和签证，提前约 60 天预警，并负责向主管部门递交申请。',
     r1r: '四年里，150 多名外籍员工中没有一人因准证过期损失过一个工作日。约 1,000 名员工的薪资每一期都按时发放。',
     n800: '80 万美元', n15: '15 分钟', r2u: '两间办公室的资本预算', r2t: '两间办公室按预算、按时开业', r2m: '菲律宾 2022 · 新加坡 2024–25',
-    r2d: '负责选址、租约谈判与布局规划，统筹装修、家具、设备与采购直至开业，并完成员工宿舍的寻找与布置。',
+    r2d: '负责选址与租约谈判，统筹装修；规划办公室与员工宿舍的平面布局并配置家具，设备与采购一路跟进至开业当天。',
     r2r: '两间办公室均按预算、按时开业，资本预算分别为 30 万美元和 50 万美元。',
     r3u: '全天候事件响应', r3t: '每起突发事件 15 分钟内响应', r3m: 'GOGOTEL Hospitality · 巴生谷 · 2016–19',
     r3d: '带领 10–20 人的运营团队，负责入住、退房、清洁周转以及清洁与安保标准，并担任客人、业主与现场团队的 24 小时应急联系人。',
@@ -44,7 +44,7 @@
     e1c: '管理公司车队、资产登记、营业执照与保险；每周向创始人汇报，并管理每月逾 5 万美元的运营资金。',
     e1d: '负责 2025 年越南公司大会，约 1,000 人出席，按预算完成，未出现重大事故。',
     e1e: '2024 年起带领 2–3 人的视觉营销团队：双语产品推广、印刷品、品牌视频，以及一个 AI 辅助搭建的客户网站。',
-    e1f: '对照中文母本审核七语种技术出版物，付印前发现整页缺失。',
+    e1f: '借助 AI 工具，对照中文母本审核七语种技术出版物，付印前发现整页缺失。',
     e2t: '总经理', e2o: 'The Acres Resort · Prunus Hotels · 马来西亚',
     e2a: '全面管理 15 房度假村，直接向业主汇报。',
     e2b: '负责 Cloudbeds、Booking.com、Agoda、Expedia 和 Traveloka 的房价与分销。',
@@ -56,22 +56,22 @@
     show: '展开五个职位', hide: '收起职位',
     e4a: '主管，Oug Print（2014–2015）：印刷排期、人手、质量、招聘与考核。',
     e4b: '行政，Mong Fook（2014）：库存记录与送货单。',
-    e4c: '技术支持，Machines，Apple 授权经销商（2013–2014）。',
+    e4c: '技术支持，Machines，Apple 优质经销商（2013–2014）。',
     e4d: 'Apple 销售专员，Harvey Norman（2012–2013）：产品演示与经销团队培训。',
     e4e: '销售主管，Challenger IT Megastore（2009–2011）。',
     e5y: '教育', e5t: 'SPM 马来西亚教育文凭，SMK Sri Sentosa，2010',
     e5o: 'Apple Champion Program，Apple 马来西亚，2013 · 2025 年起自学 AI 视觉创作与网站搭建',
     e5a: '工具：Excel（薪资模型）· Google Workspace · Cloudbeds PMS · Booking.com、Agoda、Expedia · Premiere Pro · CapCut · ChatGPT · Claude · Google Flow',
     dEy: '工作信息', dH: '工作信息',
-    d1k: '语言', lgEn: '英文', lgZhSr: '普通话', lgMs: '马来文', lgYue: '粤语', pro: '专业水平', con: '日常沟通',
+    d1k: '语言', lgEn: '英文', lgZhSr: '普通话', lgZh: '普通话', lgMs: '马来文', lgYue: '粤语', pro: '专业水平', con: '日常沟通',
     d2k: '工作身份', d2v: '马来西亚公民，持有柬埔寨工作准证。新西兰职位需由认证雇主担保 AEWV（Accredited Employer Work Visa）工作签证。',
     d3k: '目标职位', d3v: '行政经理 · 运营经理 · 设施 / 办公环境经理 · 人事行政经理',
     d4k: '到岗时间', d4v: '即可到岗，可接受迁居。',
-    d5k: '经手事务', d5v: '资金 · 人事 · 贵宾接待 · 机密文件',
+    d5k: '经手事务', d5v: '资金 · 人事 · 贵宾行程安排 · 机密文件',
     d6k: '工作足迹', d6v: '柬埔寨 · 菲律宾 · 新加坡 · 越南 · 马来西亚 · 泰国',
     d7v: '工作之外：钓鱼与骑摩托车。',
     wEy: '创意作品', wH: '另一半：<br><em>视觉也是我做的。</em>', wHint: '用鼠标或手指划过它。',
-    film: '影片', p1t: 'Xavier Studio · 宣传片', p1m: '导演与剪辑', p2t: 'AURACELL · 产品影片', p2m: '导演 · AI 生成画面',
+    film: '预告', p1t: 'Xavier Studio · 宣传片', p1m: '导演 · 8 秒预告', p2t: 'AURACELL · 产品影片', p2m: '导演 · AI 画面 · 6 秒预告',
     p3t: 'AURACELL · 落地页', p3m: '护肤品上市网站', p4t: 'AI 叙事系列', p4m: '导演 · Google Flow、ChatGPT', p4n: '4 帧',
     p5t: 'OLAFI · 品牌识别', p5m: '品牌概念', p5n: '2 张', p6t: '这个网站', p6m: '设计与搭建 · AI 辅助编程', p6n: '你正在看',
     prevP: '上一个作品', nextP: '下一个作品', prevL: '上一张', nextL: '下一张', closeL: '关闭',
@@ -97,7 +97,7 @@
   var AUD = {
     en: {
       hr: { tag: 'HR and admin for 1,000 people. <em>Already done.</em>',
-        lead: 'Fifteen years running offices, people and properties across Malaysia, Cambodia and Southeast Asia. I opened <strong>two offices on US$800,000</strong>, ran <strong>HR and payroll for about 1,000 staff</strong>, and kept <strong>200+ properties on a 15-minute response</strong>.',
+        lead: 'Fifteen years of work, the last ten running operations, people and properties across Malaysia, Cambodia and Southeast Asia. I opened <strong>two offices on US$800,000</strong>, ran <strong>HR and payroll for about 1,000 staff</strong>, and kept <strong>200+ properties on a 15&#8209;minute response</strong>.',
         cH: 'Hiring for administration or operations? <em>Let’s talk this week.</em>',
         wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
         order: ['permits', 'offices', 'phone', 'resort'] },
@@ -116,28 +116,28 @@
         lead: 'Office fit-outs, events for <strong>1,000 guests</strong>, launch films and landing pages: <strong>scoped, budgeted and checked twice</strong>. Based in Phnom Penh, working across Southeast Asia.',
         cH: 'Have a project in mind? <em>Send the brief.</em>',
         wa: 'Hi Melvin, I have a project I would like to brief you on. Can we talk?',
-        role: 'Operations lead · Creative direction', eyebrow: 'Taking projects · 2026', l2v: 'Malaysia · Cambodia · Southeast Asia · remote', l1k: 'Services', l1v: 'Office set-up · Events · Brand films · Landing pages', cta1: 'Send a brief', cta2: 'See the work', brief: 1, see: 1,
+        role: 'Operations lead · Creative direction', eyebrow: 'Available now · Roles and projects', l1k: 'Services', l1v: 'Office set-up · Events · Brand films · Landing pages', cta1: 'Send a brief', cta2: 'See the work', brief: 1, see: 1,
         order: ['offices', 'phone', 'resort', 'permits'] }
     },
     zh: {
       hr: { tag: '一千人的人事行政，<em>已经做过。</em>',
-        lead: '十五年来，我在马来西亚、柬埔寨及东南亚负责办公室、团队与物业的运营。曾以<strong>80 万美元开设两间办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并让<strong>200 多个物业保持 15 分钟响应</strong>。',
+        lead: '工作十五年，近十年在马来西亚、柬埔寨及东南亚负责运营、团队与物业管理。曾以 <strong>80 万美元开设两间办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并在 <strong>200 多个物业规模下坚持 15 分钟内响应</strong>。',
         cH: '正在招聘行政或运营人才？<em>这周就可以聊。</em>',
         wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？' },
       founder: { tag: '何必请四个人？<em>人事、行政、运营、视觉，一个人负责，中间零交接。</em>',
-        lead: '五年来在约 1,000 人的集团担任创始人的左右手：<strong>以 80 万美元开设两间办公室</strong>，经手<strong>资金、贵宾接待与机密文件</strong>，并<strong>每周以中英文汇报</strong>。在此之前，全面负责一间度假村的损益。',
+        lead: '五年来在约 1,000 人的集团担任创始人的左右手：<strong>以 80 万美元开设两间办公室</strong>，经手<strong>资金、贵宾行程安排与机密文件</strong>，并<strong>每周以中英文汇报</strong>。在此之前，全面负责一间度假村的损益。',
         cH: '需要一位能把事情管好的左右手？<em>这周就可以聊。</em>',
         wa: 'Melvin 你好，我看了你的简历，想和你聊聊直接合作的机会，这周什么时候方便？' },
       creative: { tag: '会做<em>艺术指导</em>的运营人。',
         lead: '我管运营，也做视觉：<strong>双语推广</strong>、<strong>品牌影片</strong>和 <strong>AI 搭建的网站</strong>。因为后勤也是我在管，所以准时交付。',
         cH: '想要准时交付的创意？<em>聊聊吧。</em>',
         wa: 'Melvin 你好，看了你的创意作品，想和你聊聊我们团队的职位。',
-        role: '运营经理 · 视觉营销负责人', eyebrow: '现可到岗 · 作品集与简历 2026', l1v: '兼具创意职责的运营岗位', cta2: '查看作品' },
+        role: '运营经理 · 视觉营销负责人', eyebrow: '即可到岗 · 作品集与简历 2026', l1v: '兼具创意职责的运营岗位', cta2: '查看作品' },
       client: { tag: '何必请四个人？<em>人事、行政、运营、视觉，一个人负责，中间零交接。</em>',
         lead: '办公室装修、上千人的活动、上市影片与落地页：<strong>先定范围和预算，再检查两遍</strong>。常驻金边，服务东南亚。',
         cH: '有项目想合作？<em>把需求发过来。</em>',
         wa: 'Melvin 你好，我有一个项目想和你沟通，方便聊聊吗？',
-        role: '运营统筹 · 创意指导', eyebrow: '承接项目 · 2026', l2v: '马来西亚 · 柬埔寨 · 东南亚 · 远程', l1k: '服务', l1v: '办公室筹建 · 活动 · 品牌影片 · 落地页', cta1: '发送需求', cta2: '查看作品' }
+        role: '运营统筹 · 创意指导', eyebrow: '即可到岗 · 全职与项目合作', l1k: '服务', l1v: '办公室筹建 · 活动 · 品牌影片 · 落地页', cta1: '发送需求', cta2: '查看作品' }
     }
   };
   var EN = {};
@@ -147,10 +147,10 @@
   Object.keys(ENX).forEach(function (k) { EN[k] = ENX[k]; });
 
   var lang = /(^|[#\/&,])zh($|[\/&,])/.test(location.hash) ? 'zh' : 'en';
-  var aud = 'hr';
+  var DEFAULT_AUD = 'founder', aud = DEFAULT_AUD;
   (location.hash || '').replace('#', '').split(/[\/&,]/).forEach(function (p) { if (AUD.en[p]) aud = p; });
   function writeHash() {
-    var h = []; if (aud !== 'hr') h.push(aud); if (lang === 'zh') h.push('zh'); if (typeof vw !== 'undefined' && vw && vw.open) h.push(PROJECTS[cur.p].id);
+    var h = []; if (aud !== DEFAULT_AUD) h.push(aud); if (lang === 'zh') h.push('zh'); if (typeof vw !== 'undefined' && vw && vw.open) h.push(PROJECTS[cur.p].id);
     try { history.replaceState(null, '', location.pathname + location.search + (h.length ? '#' + h.join('/') : '')); } catch (e) {}
   }
   function A2(k) { var a = AUD[lang][aud], b = AUD.en[aud]; return a[k] != null ? a[k] : b[k]; }
@@ -183,6 +183,7 @@
     var b = $('button[aria-pressed="true"]', seg); if (!b) return;
     pill.style.width = b.offsetWidth + 'px'; pill.style.height = b.offsetHeight + 'px';
     pill.style.transform = 'translate(' + b.offsetLeft + 'px,' + b.offsetTop + 'px)';
+    seg.classList.add('ready');
   }
   function swapTag(html, animateIt) {
     if (!tagEl) return;
@@ -258,10 +259,10 @@
   /* ---------------- portfolio viewer ---------------- */
   var L = function (o) { return typeof o === 'string' ? o : (o[lang] || o.en); };
   var PROJECTS = [
-    { id: 'xavier', t: { en: 'Xavier Studio · reel', zh: 'Xavier Studio · 宣传片' }, m: { en: 'Direction and edit', zh: '导演与剪辑' },
-      b: { en: 'A short reel for Xavier Studio, my design studio, showing three landing pages in motion. I directed and edited it.', zh: '为我的设计工作室 Xavier Studio 制作的短片，动态展示三个落地页。由我导演并剪辑。' },
+    { id: 'xavier', t: { en: 'Xavier Studio · reel', zh: 'Xavier Studio · 宣传片' }, m: { en: 'Direction · 8-second teaser', zh: '导演 · 8 秒预告' },
+      b: { en: 'A short reel for Xavier Studio, my design studio, showing three landing pages in motion. I directed it.', zh: '为我的设计工作室 Xavier Studio 制作的短片，动态展示三个落地页。由我导演。' },
       s: [{ v: 'assets/video/xavier-reel.mp4', p: 'assets/img/xavier-reel-poster.webp', w: 360, h: 640, c: { en: 'Studio reel, vertical format for social.', zh: '工作室宣传片，竖版社交媒体格式。' } }] },
-    { id: 'auracell-film', t: { en: 'AURACELL · product film', zh: 'AURACELL · 产品影片' }, m: { en: 'Direction · AI-generated footage', zh: '导演 · AI 生成画面' },
+    { id: 'auracell-film', t: { en: 'AURACELL · product film', zh: 'AURACELL · 产品影片' }, m: { en: 'Direction · AI footage · 6-second teaser', zh: '导演 · AI 画面 · 6 秒预告' },
       b: { en: 'A launch film for the AURACELL skincare range. I directed it; the footage was generated with AI tools.', zh: 'AURACELL 护肤系列的上市影片。由我导演，画面由 AI 工具生成。' },
       s: [{ v: 'assets/video/auracell-film.mp4', p: 'assets/img/auracell-film-poster.webp', w: 854, h: 480, c: { en: 'Product film, 16:9.', zh: '产品影片，16:9。' } }] },
     { id: 'auracell-site', t: { en: 'AURACELL · landing page', zh: 'AURACELL · 落地页' }, m: { en: 'Skincare launch site', zh: '护肤品上市网站' },
@@ -357,7 +358,7 @@
   $$('[data-copy]').forEach(function (b) {
     b.addEventListener('click', function () {
       var v = b.dataset.copy, msg = t('copied') + v, inv = !!b.closest('.inv');
-      function legacy() { var ta = doc.createElement('textarea'); ta.value = v; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0'; doc.body.appendChild(ta); ta.select(); var ok = false; try { ok = doc.execCommand('copy'); } catch (e) {} doc.body.removeChild(ta); say(ok ? msg : 'WeChat: ' + v, inv); }
+      function legacy() { var ta = doc.createElement('textarea'); ta.value = v; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0'; doc.body.appendChild(ta); ta.select(); var ok = false; try { ok = doc.execCommand('copy'); } catch (e) {} doc.body.removeChild(ta); b.focus(); say(ok ? msg : 'WeChat: ' + v, inv); }
       if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(v).then(function () { say(msg, inv); }, legacy);
       else legacy();
     });
