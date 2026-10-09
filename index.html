@@ -22,14 +22,13 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Melvin Pang, Administration and Operations Manager">
 <meta property="og:locale" content="en_US">
-<meta property="og:locale:alternate" content="zh_CN">
 <meta property="profile:first_name" content="Melvin">
 <meta property="profile:last_name" content="Pang">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Melvin Pang · Administration & Operations Manager">
 <meta name="twitter:description" content="15 years across HR, office operations and hospitality. Available now: Malaysia, Cambodia, New Zealand.">
 <meta name="twitter:image" content="https://melvin2682.github.io/og.jpg">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Melvin Pang","jobTitle":"Administration & Operations Manager","description":"Administration, operations and HR manager with 15 years across HR, office operations and hospitality. Seeking Administration, Operations, Facilities or Hotel/Resort General Manager roles in Malaysia, Cambodia and New Zealand.","nationality":{"@type":"Country","name":"Malaysia"},"homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Phnom Penh","addressCountry":"KH"}},"email":"mailto:melvinpang910629@gmail.com","telephone":["+60125272682","+85585272672"],"knowsLanguage":["en","zh","ms","yue"],"knowsAbout":["Administration management","Office set-up and fit-out","HR business partnering","Payroll","Work permits","Facilities management","Hotel operations","Procurement","Event logistics"],"url":"https://melvin2682.github.io/","image":"https://melvin2682.github.io/assets/img/hero-720.webp"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","url":"https://melvin2682.github.io/","dateModified":"2026-10-09","inLanguage":["en","zh-Hans"],"mainEntity":{"@type":"Person","name":"Melvin Pang","jobTitle":"Administration & Operations Manager","description":"Administration, operations and HR manager with 15 years across HR, office operations and hospitality. Seeking Administration, Operations, Facilities or Hotel/Resort General Manager roles in Malaysia, Cambodia and New Zealand.","nationality":{"@type":"Country","name":"Malaysia"},"homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Phnom Penh","addressCountry":"KH"}},"email":"mailto:melvinpang910629@gmail.com","telephone":["+60125272682","+85585272672"],"knowsLanguage":["en","zh","ms","yue"],"knowsAbout":["Administration management","Office set-up and fit-out","HR business partnering","Payroll","Work permits","Facilities management","Hotel operations","Procurement","Event logistics"],"url":"https://melvin2682.github.io/","image":"https://melvin2682.github.io/assets/img/hero-720.webp","sameAs":["https://x.com/themelvinpang"]}}</script>
 <link rel="preload" href="assets/fonts/playfair.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/work-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/playfair-italic.woff2" as="font" type="font/woff2" crossorigin>
@@ -207,7 +206,7 @@ em{font-style:italic}
 @media print{.print-only{display:block}}
 
 /* sections shared */
-.sec{padding-block:clamp(72px,12vw,152px)}
+.sec{padding-block:clamp(64px,9vw,120px)}
 .sec-head{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:clamp(16px,2.4vw,40px);align-items:end;margin-bottom:clamp(40px,6vw,80px)}
 .sec-head .t{grid-column:1 / 8}
 .sec-head h2{font-size:clamp(2.3rem,5vw,4.1rem);line-height:1.04}
@@ -418,7 +417,9 @@ em{font-style:italic}
 .seg button[aria-pressed="true"]{color:var(--inv)}
 .seg:not(.ready) button[aria-pressed="true"]{background:var(--inv-ink)}
 :root:not(.js) .aud,:root:not(.js) .lang,:root:not(.js) .copybtn,:root:not(.js) .menu-btn{display:none!important}
-main:focus,main:focus-visible{outline:none}
+main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
+:root:not(.js) .tile{pointer-events:none}:root:not(.js) .tile .badge{display:none}
+@media (min-width:600px) and (max-width:899px){.plate .frame{width:min(100%,calc(64svh * .7));margin-inline:auto}}
 .seg button:focus-visible{outline-color:var(--inv-ink);outline-offset:-3px}
 .seg-pill{position:absolute;left:0;top:0;width:0;height:0;border-radius:999px;background:var(--inv-ink);box-shadow:0 6px 18px -6px rgba(0,0,0,.5);transition:transform .55s var(--ease)}
 .tag{margin:.7rem .35rem 0;font:400 clamp(1.1rem,1.4vw,1.3rem)/1.3 var(--f-display);color:var(--inv-ink);min-height:1.3em;font-variant-numeric:lining-nums}
@@ -448,7 +449,10 @@ main:focus,main:focus-visible{outline:none}
 .pf-olafi .thumb{aspect-ratio:16/10}
 .pf-web .thumb{aspect-ratio:auto;flex:1;min-height:160px}
 .thumb img{width:100%;height:100%;object-fit:cover;transition:transform 1.1s var(--ease),filter .6s var(--ease)}
-.pf-site .thumb img,.pf-web .thumb img{object-position:top}
+.pf-site .thumb img,.pf-web .thumb img{object-position:left top}
+.pf-reel .thumb{background:#111526}
+.pf-reel .thumb img{object-fit:contain;object-position:50% 45%;-webkit-mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent);-webkit-mask-composite:source-in;mask-image:linear-gradient(to right,transparent,#000 10%,#000 90%,transparent),linear-gradient(to bottom,transparent,#000 8%,#000 92%,transparent);mask-composite:intersect}
+@media (max-width:899px){.pf-reel .thumb img{height:88%;object-position:50% 20%}}
 .tile:hover .thumb img,.tile:focus-visible .thumb img{transform:scale(1.045)}
 .thumb::after{content:"";position:absolute;inset:0;border:1px solid var(--stage-hair);border-radius:inherit;pointer-events:none}
 .badge{position:absolute;left:12px;bottom:12px;display:inline-flex;align-items:center;gap:.45rem;min-height:32px;padding:0 .8rem;border-radius:999px;background:var(--stage-glass);color:var(--stage-ink);font-size:.8rem;font-weight:500}
@@ -526,7 +530,7 @@ main:focus,main:focus-visible{outline:none}
         <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
         <button type="button" data-lang="zh" aria-pressed="false" lang="zh-Hans">中文</button>
       </div>
-      <a class="btn solid cv-nav" href="assets/Melvin-Pang-CV.pdf?v=20261009-2" data-cv download><span data-i="cvNav">CV</span><span class="long">(PDF)</span></a>
+      <a class="btn solid cv-nav" href="assets/Melvin-Pang-CV.pdf?v=20261009-2253" data-cv download><span data-i="cvNav">CV</span><span class="long">(PDF)</span></a>
       <button type="button" class="btn line menu-btn" aria-expanded="false" aria-controls="menu"><span data-i="menu">Menu</span></button>
     </div>
   </div>
@@ -540,7 +544,7 @@ main:focus,main:focus-visible{outline:none}
     <li><a href="#details" data-i="n6">Details</a></li>
     <li><a href="#contact" data-i="n5">Contact</a></li>
   </ul>
-  <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261009-2" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
+  <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261009-2253" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
 </div>
 
 <main id="main" tabindex="-1">
@@ -548,19 +552,19 @@ main:focus,main:focus-visible{outline:none}
 <section class="hero" id="top" aria-labelledby="h1">
   <div class="wrap">
     <div class="hero-copy">
-      <p class="kick status" data-rv style="--d:0"><span data-i="eyebrow">Available now · Curriculum vitae 2026</span></p>
+      <p class="kick status" data-rv style="--d:0"><span data-i="eyebrow">Available now · Phnom Penh · Open to relocation</span></p>
       <h1 id="h1"><span class="w"><span>Melvin</span></span> <span class="w"><span>Pang</span></span></h1>
       <p class="role" data-rv style="--d:1" data-i="role">Administration &amp; Operations Manager</p>
-      <p class="lead" data-rv style="--d:2" data-a="lead">Five years as the founder’s right hand at a ~1,000-person group: <strong>two offices opened on US$800,000</strong>, <strong>funds, VIPs and confidential files</strong>, and <strong>weekly reporting in Mandarin and English</strong>. Before that, a resort with full P&amp;L.</p>
+      <p class="lead" data-rv style="--d:2" data-a="lead">Five years as the founder’s right hand at a ~1,000-person group: <strong>HR and payroll for all of them</strong>, <strong>two offices opened on US$800,000</strong>, trusted with <strong>funds, VIPs and confidential files</strong>, and <strong>weekly reporting in Mandarin and English</strong>. Before that, a resort GM with full P&amp;L.</p>
       <p class="print-contact"><a href="https://wa.me/60125272682">+60 12-527 2682 (WhatsApp)</a> · <a href="tel:+85585272672">+855 85 272 672</a> · <a href="mailto:melvinpang910629@gmail.com">melvinpang910629@gmail.com</a> · WeChat melvin_0629 · <a href="https://melvin2682.github.io/">melvin2682.github.io</a></p>
       <div class="ctas" data-rv style="--d:3">
-        <a class="btn solid" id="cta-a" href="assets/Melvin-Pang-CV.pdf?v=20261009-2" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
+        <a class="btn solid" id="cta-a" href="assets/Melvin-Pang-CV.pdf?v=20261009-2253" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
         <a class="btn line" id="cta-b" href="#contact"><span data-i="cta2">Contact me</span> <span class="ar" aria-hidden="true">→</span></a>
       </div>
       <dl class="ledger" data-rv style="--d:4">
-        <div><dt data-i="l1k">Seeking</dt><dd data-i="l1v">Administration, Operations or Facilities Manager · Hotel or Resort General Manager</dd></div>
-        <div><dt data-i="l2k">Markets</dt><dd data-i="l2v">Malaysia · Cambodia · New Zealand (AEWV work-visa sponsorship)</dd></div>
-        <div><dt data-i="l3k">Based</dt><dd data-i="l3v">Phnom Penh · Malaysian · Cambodia work permit held</dd></div>
+        <div><dt data-i="l1k">Seeking</dt><dd data-i="l1v">Administration, Operations or Facilities Manager&nbsp;· Hotel or Resort General Manager</dd></div>
+        <div><dt data-i="l2k">Markets</dt><dd data-i="l2v">Malaysia&nbsp;· Cambodia&nbsp;· New Zealand (needs employer-sponsored AEWV)</dd></div>
+        <div><dt data-i="l3k">Based</dt><dd data-i="l3v">Phnom Penh&nbsp;· Malaysian&nbsp;· Cambodia work permit held</dd></div>
       </dl>
       <div class="aud" data-rv style="--d:5" role="group" aria-labelledby="aud-l">
         <p class="aud-l" id="aud-l"><span data-i="audL">Reading as</span> <span class="sr" data-i="audH">Changes the headline, case order and the WhatsApp opener.</span></p>
@@ -599,7 +603,7 @@ main:focus,main:focus-visible{outline:none}
       <div class="t">
         <h2 id="h-results" data-i="rH" data-rv>Four results I can evidence</h2>
       </div>
-      <p class="aside" data-i="rP" data-rv>Details and referees for every number, at interview.</p>
+      <p class="aside" data-i="rP" data-rv>Details and referees available at interview.</p>
     </div>
     <ol class="results">
       <li class="result" data-case="offices" data-rv>
@@ -654,13 +658,13 @@ main:focus,main:focus-visible{outline:none}
   <div class="wrap">
     <div class="sec-head">
       <div class="t">
-        <h2 id="h-exp" data-i="eH" data-rv>Fifteen years, <em>in order.</em></h2>
+        <h2 id="h-exp" data-i="eH" data-rv>The record, <em>in order.</em></h2>
       </div>
       <p class="aside" data-i="eP" data-rv>Employer names and referees on request.</p>
     </div>
     <ol class="roles">
       <li class="job" data-rv>
-        <p class="yr">2021 – 2026</p>
+        <p class="yr" data-i="y1">Sep 2021 – Aug 2026</p>
         <div class="hd">
           <h3 data-i="e1t">HR Recruitment &amp; Administration Manager</h3>
           <p class="org" data-i="e1o">Regional trading group, ~1,000 staff · Cambodia, Philippines, Singapore · name on request</p>
@@ -676,7 +680,7 @@ main:focus,main:focus-visible{outline:none}
         </ul>
       </li>
       <li class="job" data-rv>
-        <p class="yr">2019 – 2021</p>
+        <p class="yr" data-i="y2">Oct 2019 – Aug 2021</p>
         <div class="hd">
           <h3 data-i="e2t">General Manager</h3>
           <p class="org" data-i="e2o">The Acres Resort · Prunus Hotels · Malaysia</p>
@@ -688,14 +692,14 @@ main:focus,main:focus-visible{outline:none}
         </ul>
       </li>
       <li class="job" data-rv>
-        <p class="yr">2016 – 2019</p>
+        <p class="yr" data-i="y3">Mar 2016 – Oct 2019</p>
         <div class="hd">
           <h3 data-i="e3t">Operations Manager</h3>
           <p class="org" data-i="e3o">GOGOTEL Hospitality · Klang Valley, Malaysia</p>
         </div>
         <ul>
           <li data-i="e3a">Ran day-to-day operations across the short-stay portfolio as the 24-hour escalation contact for guests, teams and owners.</li>
-          <li data-i="e3b">Housekeeping and security standards, HR, sales, finance, PMS and online booking channels.</li>
+          <li data-i="e3b">Covered housekeeping and security standards, HR, the PMS and online booking channels.</li>
         </ul>
       </li>
       <li class="job" data-rv>
@@ -722,7 +726,7 @@ main:focus,main:focus-visible{outline:none}
           <p class="org" data-i="e5o">Apple Champion Program, Apple Malaysia, 2013 · Self-directed AI visual creation and web builds since 2025</p>
         </div>
         <ul>
-          <li data-i="e5a">Tools: Excel (payroll models) · Google Workspace · Cloudbeds PMS · Booking.com, Agoda, Expedia · Premiere Pro · CapCut · ChatGPT · Claude · Google Flow</li>
+          <li data-i="e5a">Tools: Excel (payroll models) · Google Workspace · Cloudbeds PMS · Booking.com, Agoda, Expedia · Premiere Pro · After Effects · CapCut · ChatGPT · Claude · Google Flow</li>
         </ul>
       </li>
     </ol>
@@ -740,13 +744,13 @@ main:focus,main:focus-visible{outline:none}
     </div>
     <ul class="pf" role="list">
       <li class="pf-reel" data-rv><button type="button" class="tile" data-proj="xavier" aria-haspopup="dialog">
-        <span class="thumb"><img src="assets/img/xavier-reel-poster.webp" width="360" height="640" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
+        <span class="thumb"><img src="assets/img/xavier-tile.webp" width="360" height="520" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
         <span class="cap"><b data-i="p1t">Xavier Studio · reel</b><span data-i="p1m">Direction · 8-second teaser</span></span></button></li>
       <li class="pf-film" data-rv><button type="button" class="tile" data-proj="auracell-film" aria-haspopup="dialog">
         <span class="thumb"><img src="assets/img/auracell-film-poster.webp" width="854" height="480" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
         <span class="cap"><b data-i="p2t">AURACELL · product film</b><span data-i="p2m">Direction · AI footage · 6-second teaser</span></span></button></li>
       <li class="pf-site" data-rv><button type="button" class="tile" data-proj="auracell-site" aria-haspopup="dialog">
-        <span class="thumb"><img src="assets/img/auracell-site-640.webp" width="640" height="325" loading="lazy" decoding="async" alt=""></span>
+        <span class="thumb"><img src="assets/img/auracell-site-640.webp" srcset="assets/img/auracell-site-640.webp 640w, assets/img/auracell-site.webp 1040w" sizes="(max-width: 899px) 100vw, 30vw" width="640" height="325" loading="lazy" decoding="async" alt=""></span>
         <span class="cap"><b data-i="p3t">AURACELL · landing page</b><span data-i="p3m">Skincare launch site</span></span></button></li>
       <li class="pf-ai" data-rv><button type="button" class="tile" data-proj="narrative" aria-haspopup="dialog">
         <span class="thumb"><img src="assets/img/ai-keyframe-640.webp" width="640" height="357" loading="lazy" decoding="async" alt=""><span class="badge"><span data-i="p4n">4 frames</span></span></span>
@@ -755,7 +759,7 @@ main:focus,main:focus-visible{outline:none}
         <span class="thumb"><img src="assets/img/olafi-debut-640.webp" width="640" height="478" loading="lazy" decoding="async" alt=""><span class="badge"><span data-i="p5n">2 visuals</span></span></span>
         <span class="cap"><b data-i="p5t">OLAFI · identity</b><span data-i="p5m">Brand concept</span></span></button></li>
       <li class="pf-web" data-rv><button type="button" class="tile" data-proj="site" aria-haspopup="dialog">
-        <span class="thumb"><img src="assets/img/site-hero-640.webp" width="640" height="400" loading="lazy" decoding="async" alt=""><span class="badge"><span data-i="p6n">You are here</span></span></span>
+        <span class="thumb"><img src="assets/img/site-hero-640.webp" srcset="assets/img/site-hero-640.webp 640w, assets/img/site-hero.webp 1440w" sizes="(max-width: 899px) 100vw, 30vw" width="640" height="400" loading="lazy" decoding="async" alt=""><span class="badge"><span data-i="p6n">You are here</span></span></span>
         <span class="cap"><b data-i="p6t">This website</b><span data-i="p6m">Design and build · AI-assisted code</span></span></button></li>
     </ul>
   </div>
@@ -810,7 +814,7 @@ main:focus,main:focus-visible{outline:none}
     <div class="copy">
       <p class="kick" data-i="cEy" data-rv>Contact</p>
       <h2 id="h-contact" data-a="cH" data-rv>Need a right hand who runs the place? <em>Let’s talk this week.</em></h2>
-      <p class="intro" data-i="cP" data-rv>Based in Phnom Penh, available now and open to relocation. Write in English, Mandarin, Bahasa Malaysia or Cantonese.</p>
+      <p class="intro" data-i="cP" data-rv>Based in Phnom Penh, available now and open to relocation. Message me in English, Mandarin, Bahasa Malaysia or Cantonese.</p>
       <dl class="clist" data-rv>
         <div><dt>WhatsApp</dt><dd><a href="https://wa.me/60125272682" data-wa rel="noopener" target="_blank">+60 12-527 2682<span class="sr" data-i="newtab"> (opens in a new tab)</span></a></dd></div>
         <div><dt data-i="k2">Phone (Cambodia)</dt><dd><a href="tel:+85585272672">+855 85 272 672</a></dd></div>
@@ -818,7 +822,7 @@ main:focus,main:focus-visible{outline:none}
         <div><dt data-i="k4">WeChat</dt><dd class="wc"><span>melvin_0629</span><button type="button" class="copybtn" data-copy="melvin_0629"><span data-i="copy">Copy</span><span class="sr" data-i="k4">WeChat</span></button></dd></div>
       </dl>
       <div class="acts" data-rv>
-        <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261009-2" data-cv download><span data-i="b1">Download CV (PDF)</span> <span class="ar" aria-hidden="true">→</span></a>
+        <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261009-2253" data-cv download><span data-i="b1">Download CV (PDF)</span> <span class="ar" aria-hidden="true">→</span></a>
         <a class="btn line" href="assets/melvin-pang.vcf" download><span data-i="b2">Save contact</span> <span class="ar" aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -861,6 +865,6 @@ main:focus,main:focus-visible{outline:none}
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="assets/js/site.js?v=20261009-2" defer></script>
+<script src="assets/js/site.js?v=20261009-2253" defer></script>
 </body>
 </html>

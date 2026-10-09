@@ -13,33 +13,33 @@
     skip: '跳到正文', markL: 'Melvin Pang，回到顶部', navL: '页面导航', langL: '语言',
     n1: '简介', n2: '成果', n3: '履历', n4: '作品', n5: '联系', n6: '工作信息',
     cvNav: '简历', menu: '目录', menuClose: '关闭', cta1: '下载简历', cta2: '联系我',
-    eyebrow: '即可到岗 · 2026 年简历',
+    eyebrow: '即可到岗 · 常驻金边 · 可接受迁居',
     role: '行政与运营经理',
-    lead: '工作十五年，近十年在马来西亚、柬埔寨及东南亚负责运营、团队与物业管理。曾以 <strong>80 万美元开设两间办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并在 <strong>200 多个物业规模下坚持 15 分钟内响应</strong>。',
+    lead: '工作十五年，近十年在马来西亚、柬埔寨及东南亚负责运营、团队与物业管理。曾以 <strong>80 万美元开设两个办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并在 <strong>200 多个物业规模下坚持 15 分钟内响应</strong>。',
     l1k: '求职方向', l1v: '行政经理、运营经理或设施经理 · 酒店或度假村总经理',
     l2k: '目标地区', l2v: '马来西亚 · 柬埔寨 · 新西兰（需雇主担保 AEWV 工作签证）',
     l3k: '常驻', l3v: '柬埔寨金边 · 马来西亚籍 · 持有柬埔寨工作准证',
     portraitA: 'Melvin Pang 倚靠着拼出 MELVIN 的白色字母方块', otrK: '工作之外', otrH: '周末，<wbr>留给开阔的<wbr>水面和公路。', otrP: '钓鱼教会我耐心：先读懂环境，别急着收线。骑车教会我判断力，以及在压力下保持冷静。这两样，我都带到了工作里。', rideC: '在路上', fishC: '周末在水上', rideA: '日落时分，Melvin 骑着摩托车停在山路上', fishA: 'Melvin 在湖边钓鱼', plate1: 'Melvin Pang，金边', plate2: '15 年 · 6 个国家',
     pEy: '简介',
-    pText: '过去五年，管理层有事最先交代给我：员工档案、外籍员工工作准证、高层差旅，以及<em>下一间办公室的预算。</em>在此之前，我全面负责一间度假村的损益，并管理一个超过 200 个物业的短租组合。我用中英文工作，指令传达不走样。',
-    rEy: '成果', rH: '四项可以佐证的成果', rP: '每个数字的细节与推荐人，面试时均可提供。',
+    pText: '过去五年，我是管理层首先交办事务的人：员工档案、外籍员工工作准证、高层差旅，以及<em>下一个办公室的预算。</em>在此之前，我全面负责一家度假村的损益，并管理超过 200 个物业的短租组合。我以中英文工作，确保指令准确传达。',
+    rEy: '成果', rH: '四项可以佐证的成果', rP: '各项细节与推荐人，面试时均可提供。',
     did: '我做了什么', res: '结果',
     r1u: '个工作日因准证过期而损失', r1t: '150 多名外籍员工，每份准证都按时续签', r1m: '区域贸易集团 · 柬埔寨 · 2021–26',
     r1d: '用续签追踪表管理每一份工作准证和签证，提前约 60 天预警，并负责向主管部门递交申请。',
     r1r: '四年里，150 多名外籍员工中没有一人因准证过期损失过一个工作日。约 1,000 名员工的薪资每一期都按时发放。',
-    n800: '80 万美元', n15: '15 分钟', r2u: '两间办公室的资本预算', r2t: '两间办公室按预算、按时开业', r2m: '菲律宾 2022 · 新加坡 2024–25',
-    r2d: '负责选址与租约谈判，统筹装修；规划办公室与员工宿舍的平面布局并配置家具，设备与采购一路跟进至开业当天。',
-    r2r: '两间办公室均按预算、按时开业，资本预算分别为 30 万美元和 50 万美元。',
+    n800: '80 万美元', n15: '15 分钟', r2u: '两个办公室的资本预算', r2t: '两个办公室按预算、按时开业', r2m: '菲律宾 2022 · 新加坡 2024–25',
+    r2d: '负责选址与租约谈判，统筹装修；规划办公室与员工宿舍的平面布局并配置家具，设备与采购全程负责至开业。',
+    r2r: '两个办公室均按预算、按时开业，资本预算分别为 30 万美元和 50 万美元。',
     r3u: '全天候事件响应', r3t: '每起突发事件 15 分钟内响应', r3m: 'GOGOTEL Hospitality · 巴生谷 · 2016–19',
-    r3d: '带领 10–20 人的运营团队，负责入住、退房、清洁周转以及清洁与安保标准，并担任客人、业主与现场团队的 24 小时应急联系人。',
+    r3d: '带领 10–20 人的运营团队，负责入住、客房周转、清洁与安保标准，并担任客人、业主与现场团队的 24 小时应急联系人。',
     r3r: '三年半里，每一起突发事件都在 15 分钟内响应；同期物业组合从不到 100 个增长到 200 多个。',
     r4u: '平均入住率', r4t: '全面负责损益的精品度假村', r4m: 'The Acres Resort · Prunus Hotels · 马来西亚 · 2019–21',
     r4d: '制定预算，负责收入与成本，并在 Cloudbeds、Booking.com、Agoda、Expedia 和 Traveloka 上管理房价与分销，带领 7 个部门共 20 名员工。',
     r4r: '平均入住率 80% 以上；2020–21 年封锁停业期间，物业持续维护并完成升级。',
-    eEy: '履历', eH: '十五年，<em>按时间排列。</em>', eP: '雇主名称与推荐人可应要求提供。',
+    eEy: '履历', y1: '2021.09 – 2026.08', y2: '2019.10 – 2021.08', y3: '2016.03 – 2019.10', eH: '职业经历，<em>按时间排列。</em>', eP: '雇主名称与推荐人可应要求提供。',
     e1t: '人事招聘与行政经理', e1o: '区域贸易集团，约 1,000 名员工 · 柬埔寨、菲律宾、新加坡 · 名称可应要求提供',
     e1x: '2024 年起兼任视觉营销团队负责人',
-    e1a: '第一年：负责约 1,000 名员工的全部人事与行政。之后四年作为唯一的人事业务伙伴：招聘（每年约 30 人）、薪资、考核、工作准证与机密档案。',
+    e1a: '第一年：负责约 1,000 名员工的全部人事与行政。之后四年作为唯一的人力资源业务伙伴（HRBP）：招聘（每年约 30 人）、薪资、考核、工作准证与机密档案。',
     e1b: '开设菲律宾（2022）和新加坡（2024–25）办公室，从选址一直负责到开业当天。',
     e1c: '管理公司车队、资产登记、营业执照与保险；每周向创始人汇报，并管理每月逾 5 万美元的运营资金。',
     e1d: '负责 2025 年越南公司大会，约 1,000 人出席，按预算完成，未出现重大事故。',
@@ -48,10 +48,10 @@
     e2t: '总经理', e2o: 'The Acres Resort · Prunus Hotels · 马来西亚',
     e2a: '全面管理 15 房度假村，直接向业主汇报。',
     e2b: '负责 Cloudbeds、Booking.com、Agoda、Expedia 和 Traveloka 的房价与分销。',
-    e2c: '承办婚礼与企业活动；人手不足时亲自下厨房、做客房。',
+    e2c: '承办婚礼与企业活动；人手不足时亲自支援厨房与客房部。',
     e3t: '运营经理', e3o: 'GOGOTEL Hospitality · 马来西亚巴生谷',
     e3a: '负责短租物业组合的日常运营，是客人、团队与业主的 24 小时应急联系人。',
-    e3b: '清洁与安保标准、人事、销售、财务、PMS 与线上订房渠道。',
+    e3b: '负责清洁与安保标准、人事、PMS 系统与线上订房渠道。',
     e4t: '早期职位', e4o: '销售、Apple 专员、IT 支持、行政、印刷主管',
     show: '展开五个职位', hide: '收起职位',
     e4a: '主管，Oug Print（2014–2015）：印刷排期、人手、质量、招聘与考核。',
@@ -61,7 +61,7 @@
     e4e: '销售主管，Challenger IT Megastore（2009–2011）。',
     e5y: '教育', e5t: 'SPM 马来西亚教育文凭，SMK Sri Sentosa，2010',
     e5o: 'Apple Champion Program，Apple 马来西亚，2013 · 2025 年起自学 AI 视觉创作与网站搭建',
-    e5a: '工具：Excel（薪资模型）· Google Workspace · Cloudbeds PMS · Booking.com、Agoda、Expedia · Premiere Pro · CapCut · ChatGPT · Claude · Google Flow',
+    e5a: '工具：Excel（薪资模型）· Google Workspace · Cloudbeds PMS · Booking.com、Agoda、Expedia · Premiere Pro · After Effects · CapCut · ChatGPT · Claude · Google Flow',
     dEy: '工作信息', dH: '工作信息',
     d1k: '语言', lgEn: '英文', lgZhSr: '普通话', lgZh: '普通话', lgMs: '马来文', lgYue: '粤语', pro: '专业水平', con: '日常沟通',
     d2k: '工作身份', d2v: '马来西亚公民，持有柬埔寨工作准证。新西兰职位需由认证雇主担保 AEWV（Accredited Employer Work Visa）工作签证。',
@@ -70,7 +70,7 @@
     d5k: '经手事务', d5v: '资金 · 人事 · 贵宾行程安排 · 机密文件',
     d6k: '工作足迹', d6v: '柬埔寨 · 菲律宾 · 新加坡 · 越南 · 马来西亚 · 泰国',
     d7v: '工作之外：钓鱼与骑摩托车。',
-    wEy: '创意作品', wH: '另一半：<br><em>视觉也是我做的。</em>', wHint: '用鼠标或手指划过它。',
+    wEy: '创意作品', wH: '另一半：<br><em>视觉创作亦由我主导。</em>', wHint: '用鼠标或手指划过它。',
     film: '预告', p1t: 'Xavier Studio · 宣传片', p1m: '导演 · 8 秒预告', p2t: 'AURACELL · 产品影片', p2m: '导演 · AI 画面 · 6 秒预告',
     p3t: 'AURACELL · 落地页', p3m: '护肤品上市网站', p4t: 'AI 叙事系列', p4m: '导演 · Google Flow、ChatGPT', p4n: '4 帧',
     p5t: 'OLAFI · 品牌识别', p5m: '品牌概念', p5n: '2 张', p6t: '这个网站', p6m: '设计与搭建 · AI 辅助编程', p6n: '你正在看',
@@ -81,18 +81,18 @@
     w2: 'AURACELL · 产品影片', w2s: '护肤品上市影片 · Melvin 导演，AI 生成画面',
     w3: 'AURACELL · 落地页', w3s: '护肤品上市网站', siteA: 'AURACELL 护肤品落地页',
     w4: 'AI 叙事系列', w4s: '在多镜头故事中保持角色与场景一致', aiA: 'AI 关键帧：圆形木构大厅中，两个相同的男孩站在黑色水池旁',
-    cEy: '联系', cH: '正在招聘行政或运营人才？<em>这周就可以聊。</em>',
-    cP: '常驻金边，即可到岗，可接受迁居。中文、英文、马来文或粤语联系都可以。',
+    cEy: '联系', cH: '正在招聘行政或运营人才？<em>欢迎本周联系。</em>',
+    cP: '常驻金边，即可到岗，可接受迁居。可使用中文、英文、马来文或粤语联系。',
     newtab: '（在新标签页打开）', k2: '电话（柬埔寨）', k3: '电邮', k4: '微信', copy: '复制', copied: '已复制微信号：',
     b1: '下载简历 PDF', b2: '保存联系人',
     f1: 'Melvin Pang · 简历 · 2026 年 10 月更新', f2: '雇主名称与推荐人可应要求提供。', f3: '回到顶部',
     wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？',
-    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261009-2', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
+    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261009-2253', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
   };
   var ENX = {
     title: doc.title, hide: 'Hide the roles', menuClose: 'Close', vidErr: 'This browser could not play the video. Try another browser.', pause: 'Pause', copied: 'WeChat ID copied: ',
     wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
-    cv: 'assets/Melvin-Pang-CV.pdf?v=20261009-2'
+    cv: 'assets/Melvin-Pang-CV.pdf?v=20261009-2253'
   };
   var AUD = {
     en: {
@@ -102,7 +102,7 @@
         wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
         order: ['permits', 'offices', 'phone', 'resort'] },
       founder: { tag: 'Why hire four when you can hire one? <em>HR, admin, operations and visuals, with no hand-offs between them.</em>',
-        lead: 'Five years as the founder’s right hand at a ~1,000-person group: <strong>two offices opened on US$800,000</strong>, <strong>funds, VIPs and confidential files</strong>, and <strong>weekly reporting in Mandarin and English</strong>. Before that, a resort with full P&amp;L.',
+        lead: 'Five years as the founder’s right hand at a ~1,000-person group: <strong>HR and payroll for all of them</strong>, <strong>two offices opened on US$800,000</strong>, trusted with <strong>funds, VIPs and confidential files</strong>, and <strong>weekly reporting in Mandarin and English</strong>. Before that, a resort GM with full P&amp;L.',
         cH: 'Need a right hand who runs the place? <em>Let’s talk this week.</em>',
         wa: 'Hi Melvin, I saw your CV and would like to talk about working together directly. When are you free this week?',
         order: ['offices', 'permits', 'resort', 'phone'] },
@@ -110,9 +110,9 @@
         lead: 'I run operations and I make the visuals: <strong>bilingual campaigns</strong>, <strong>brand films</strong> and <strong>AI-built sites</strong>, delivered on schedule because I also run the logistics.',
         cH: 'Want creative that ships on time? <em>Let’s talk.</em>',
         wa: 'Hi Melvin, I saw your creative work and would like to talk about a role on our team.',
-        role: 'Operations Manager · Visual marketing lead', eyebrow: 'Available now · Portfolio and CV 2026', l1v: 'Operations roles with a creative remit', cta2: 'See the work', see: 1,
+        role: 'Operations Manager · Visual marketing lead', eyebrow: 'Available now · Portfolio and CV', l1v: 'Operations roles with a creative remit', cta2: 'See the work', see: 1,
         order: ['offices', 'resort', 'phone', 'permits'] },
-      client: { tag: 'Why hire four when you can hire one? <em>HR, admin, operations and visuals, with no hand-offs between them.</em>',
+      client: { tag: 'One brief, one contact. <em>Fit-outs, events, films and landing pages, with no hand-offs.</em>',
         lead: 'Office fit-outs, events for <strong>1,000 guests</strong>, launch films and landing pages: <strong>scoped, budgeted and checked twice</strong>. Based in Phnom Penh, working across Southeast Asia.',
         cH: 'Have a project in mind? <em>Send the brief.</em>',
         wa: 'Hi Melvin, I have a project I would like to brief you on. Can we talk?',
@@ -120,20 +120,20 @@
         order: ['offices', 'phone', 'resort', 'permits'] }
     },
     zh: {
-      hr: { tag: '一千人的人事行政，<em>已经做过。</em>',
-        lead: '工作十五年，近十年在马来西亚、柬埔寨及东南亚负责运营、团队与物业管理。曾以 <strong>80 万美元开设两间办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并在 <strong>200 多个物业规模下坚持 15 分钟内响应</strong>。',
-        cH: '正在招聘行政或运营人才？<em>这周就可以聊。</em>',
+      hr: { tag: '千人规模人事行政，<em>已有实绩。</em>',
+        lead: '工作十五年，近十年在马来西亚、柬埔寨及东南亚负责运营、团队与物业管理。曾以 <strong>80 万美元开设两个办公室</strong>，为<strong>约 1,000 名员工负责人事与薪资</strong>，并在 <strong>200 多个物业规模下坚持 15 分钟内响应</strong>。',
+        cH: '正在招聘行政或运营人才？<em>欢迎本周联系。</em>',
         wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？' },
       founder: { tag: '何必请四个人？<em>人事、行政、运营、视觉，一个人负责，中间零交接。</em>',
-        lead: '五年来在约 1,000 人的集团担任创始人的左右手：<strong>以 80 万美元开设两间办公室</strong>，经手<strong>资金、贵宾行程安排与机密文件</strong>，并<strong>每周以中英文汇报</strong>。在此之前，全面负责一间度假村的损益。',
-        cH: '需要一位能把事情管好的左右手？<em>这周就可以聊。</em>',
+        lead: '五年来在约 1,000 人的集团担任创始人的左右手：负责<strong>全员人事与薪资</strong>，<strong>以 80 万美元开设两个办公室</strong>，经手<strong>资金、贵宾行程安排与机密文件</strong>，并<strong>每周以中英文汇报</strong>。在此之前，担任度假村总经理，全面负责损益。',
+        cH: '需要一位能统筹全局的得力助手？<em>欢迎本周联系。</em>',
         wa: 'Melvin 你好，我看了你的简历，想和你聊聊直接合作的机会，这周什么时候方便？' },
-      creative: { tag: '会做<em>艺术指导</em>的运营人。',
+      creative: { tag: '懂<em>艺术指导</em>的运营管理者。',
         lead: '我管运营，也做视觉：<strong>双语推广</strong>、<strong>品牌影片</strong>和 <strong>AI 搭建的网站</strong>。因为后勤也是我在管，所以准时交付。',
-        cH: '想要准时交付的创意？<em>聊聊吧。</em>',
+        cH: '想要准时交付的创意？<em>欢迎联系。</em>',
         wa: 'Melvin 你好，看了你的创意作品，想和你聊聊我们团队的职位。',
-        role: '运营经理 · 视觉营销负责人', eyebrow: '即可到岗 · 作品集与简历 2026', l1v: '兼具创意职责的运营岗位', cta2: '查看作品' },
-      client: { tag: '何必请四个人？<em>人事、行政、运营、视觉，一个人负责，中间零交接。</em>',
+        role: '运营经理 · 视觉营销负责人', eyebrow: '即可到岗 · 作品集与简历', l1v: '兼具创意职责的运营岗位', cta2: '查看作品' },
+      client: { tag: '一份需求，一位对接人。<em>办公室筹建、活动、影片与落地页，全程零交接。</em>',
         lead: '办公室装修、上千人的活动、上市影片与落地页：<strong>先定范围和预算，再检查两遍</strong>。常驻金边，服务东南亚。',
         cH: '有项目想合作？<em>把需求发过来。</em>',
         wa: 'Melvin 你好，我有一个项目想和你沟通，方便聊聊吗？',
@@ -198,9 +198,9 @@
     var a = AUD.en[aud];
     $$('.seg button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.aud === aud)); });
     placePill();
-    var lead = $('[data-a="lead"]'); if (lead) lead.innerHTML = A2('lead');
-    var ch = $('[data-a="cH"]'); if (ch) ch.innerHTML = A2('cH');
-    swapTag(A2('tag'), animateIt);
+    var lead = $('[data-a="lead"]'); if (lead && lead.innerHTML !== A2('lead')) lead.innerHTML = A2('lead');
+    var ch = $('[data-a="cH"]'); if (ch && ch.innerHTML !== A2('cH')) ch.innerHTML = A2('cH');
+    if (!tagEl || tagEl.innerHTML !== A2('tag')) swapTag(A2('tag'), animateIt);
     // role, first ledger line and hero CTAs follow the reader
     ['eyebrow', 'role', 'l1k', 'l1v', 'l2v', 'cta1', 'cta2'].forEach(function (k) {
       var el = $('.hero [data-i="' + k + '"]'); if (!el) return;
@@ -215,7 +215,7 @@
     if (cb) cb.href = AUD.en[aud].see ? '#work' : '#contact';
     $$('[data-wa]').forEach(function (l) { l.href = 'https://wa.me/60125272682?text=' + encodeURIComponent(A2('wa')); });
     var list = $('.results');
-    if (list) a.order.forEach(function (k) { var li = $('[data-case="' + k + '"]', list); if (li) list.appendChild(li); });
+    if (list) { var now = $$('[data-case]', list).map(function (li) { return li.dataset.case; }).join(); if (now !== a.order.join()) a.order.forEach(function (k) { var li = $('[data-case="' + k + '"]', list); if (li) list.appendChild(li); }); }
     // creative and client readers see the portfolio straight after the profile
     var work = $('#work'), prof = $('#profile'), exp = $('#experience');
     if (work && prof && exp) {
@@ -300,7 +300,7 @@
       el.setAttribute('playsinline', ''); el.width = S.w; el.height = S.h; el.setAttribute('aria-label', L(P.t));
       el.addEventListener('error', function () { say(t('vidErr')); });
       vwMedia.appendChild(el);
-      var pr = el.play(); if (pr && pr.catch) pr.catch(function () {});
+      if (root.classList.contains('motion')) { var pr = el.play(); if (pr && pr.catch) pr.catch(function () {}); }
     } else {
       el = doc.createElement('img'); el.src = S.i; el.width = S.w; el.height = S.h; el.alt = L(S.a); el.decoding = 'async';
       vwMedia.appendChild(el);
@@ -397,6 +397,19 @@
     menu.addEventListener('focusout', function (e) { var n = e.relatedTarget; if (n && !menu.contains(n) && !mb.contains(n)) setMenu(false); });
   }
 
+  // in-page links: scroll to the section but keep #zh / #client etc. in the address bar
+  doc.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href^="#"]');
+    if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey) return;
+    var id = a.getAttribute('href').slice(1); if (!id || id === 'main') return;
+    var el = doc.getElementById(id); if (!el || el.tagName === 'DIALOG') return;
+    e.preventDefault();
+    el.scrollIntoView({ behavior: root.classList.contains('motion') ? 'smooth' : 'auto', block: 'start' });
+    if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '-1');
+    el.focus({ preventScroll: true });
+    writeHash();
+  });
+
   // skip link: move focus into main
   var skip = $('.skip');
   if (skip) skip.addEventListener('click', function () { var m = $('#main'); if (m) setTimeout(function () { m.focus({ preventScroll: true }); }, 0); });
@@ -427,7 +440,7 @@
   var fallback = setTimeout(function () { root.classList.add('rv-all'); }, 6000);
   function loadAnime(cb) {
     if (window.anime && window.anime.animate) return cb();
-    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261009-2'; sc.async = true;
+    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261009-2253'; sc.async = true;
     sc.onload = cb; sc.onerror = function () { root.classList.add('rv-all'); };
     doc.head.appendChild(sc);
   }
