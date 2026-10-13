@@ -25,7 +25,7 @@
     rEy: '成果', rH: '四项可以佐证的成果', rP: '各项细节与推荐人，面试时均可提供。',
     did: '我做了什么', res: '结果',
     r1u: '个工作日因准证过期而损失', r1t: '150 多名外籍员工，每份准证都按时续签', r1m: '区域贸易集团 · 柬埔寨 · 2021–26',
-    r1d: '用续签追踪表管理每一份工作准证和签证，提前约 60 天预警，并负责向主管部门递交申请。',
+    r1d: '从零建立续签追踪表：到期前 60 天准备文件并申请费用，30 天前完成递交，并加入护照效期检查。所有申请均由我向主管部门递交。',
     r1r: '四年里，150 多名外籍员工中没有一人因准证过期损失过一个工作日。约 1,000 名员工的薪资每一期都按时发放。',
     n800: '80 万美元', n15: '15 分钟', r2u: '两个办公室的资本预算', r2t: '两个办公室按预算、按时开业', r2m: '菲律宾 2022 · 新加坡 2024–25',
     r2d: '负责选址与租约谈判，统筹装修；规划办公室与员工宿舍的平面布局并配置家具，设备与采购全程负责至开业。',
@@ -54,11 +54,11 @@
     e3b: '负责清洁与安保标准、人事、PMS 系统与线上订房渠道。',
     e4t: '早期职位', e4o: '销售、Apple 专员、IT 支持、行政、印刷主管',
     show: '展开五个职位', hide: '收起职位',
-    e4a: '主管，Oug Print（2014–2015）：印刷排期、人手、质量、招聘与考核。',
-    e4b: '行政，Mong Fook（2014）：库存记录与送货单。',
+    e4a: '主管，Oug Print（2014–2015）：带领 10 人以上团队，负责印刷排期、质量、招聘与考核。',
+    e4b: '行政，Mong Fook（2014）：库存记录、送货单，人手不足时亲自送货。',
     e4c: '技术支持，Machines，Apple 优质经销商（2013–2014）。',
     e4d: 'Apple 销售专员，Harvey Norman（2012–2013）：产品演示与经销团队培训。',
-    e4e: '销售主管，Challenger IT Megastore（2009–2011）。',
+    e4e: '销售主管，Challenger IT Megastore（2009–2011）：带领 5 人以上销售团队。',
     e5y: '教育', e5t: 'SPM 马来西亚教育文凭，SMK Sri Sentosa，2010',
     e5o: 'Apple Champion Program，Apple 马来西亚，2013 · 2025 年起自学 AI 视觉创作与网站搭建',
     e5a: '工具：Excel（薪资模型）· Google Workspace · Cloudbeds PMS · Booking.com、Agoda、Expedia · Premiere Pro · After Effects · CapCut · ChatGPT · Claude · Google Flow',
@@ -87,12 +87,12 @@
     b1: '下载简历 PDF', b2: '保存联系人',
     f1: 'Melvin Pang · 简历 · 2026 年 10 月更新', f2: '雇主名称与推荐人可应要求提供。', f3: '回到顶部',
     wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？',
-    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261009-2253', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
+    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261013-1918', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
   };
   var ENX = {
     title: doc.title, hide: 'Hide the roles', menuClose: 'Close', vidErr: 'This browser could not play the video. Try another browser.', pause: 'Pause', copied: 'WeChat ID copied: ',
     wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
-    cv: 'assets/Melvin-Pang-CV.pdf?v=20261009-2253'
+    cv: 'assets/Melvin-Pang-CV.pdf?v=20261013-1918'
   };
   var AUD = {
     en: {
@@ -440,7 +440,7 @@
   var fallback = setTimeout(function () { root.classList.add('rv-all'); }, 6000);
   function loadAnime(cb) {
     if (window.anime && window.anime.animate) return cb();
-    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261009-2253'; sc.async = true;
+    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261013-1918'; sc.async = true;
     sc.onload = cb; sc.onerror = function () { root.classList.add('rv-all'); };
     doc.head.appendChild(sc);
   }
