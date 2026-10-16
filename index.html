@@ -28,8 +28,8 @@
 <meta name="twitter:title" content="Melvin Pang · Administration & Operations Manager">
 <meta name="twitter:description" content="15 years across HR, office operations and hospitality. Available now: Malaysia, Cambodia, New Zealand.">
 <meta name="twitter:image" content="https://melvin2682.github.io/og.jpg">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","url":"https://melvin2682.github.io/","dateModified":"2026-10-13","inLanguage":["en","zh-Hans"],"mainEntity":{"@type":"Person","name":"Melvin Pang","jobTitle":"Administration & Operations Manager","description":"Administration, operations and HR manager with 15 years across HR, office operations and hospitality. Seeking Administration, Operations, Facilities or Hotel/Resort General Manager roles in Malaysia, Cambodia and New Zealand.","nationality":{"@type":"Country","name":"Malaysia"},"homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Phnom Penh","addressCountry":"KH"}},"email":"mailto:melvinpang910629@gmail.com","telephone":["+60125272682","+85585272672"],"knowsLanguage":["en","zh","ms","yue"],"knowsAbout":["Administration management","Office set-up and fit-out","HR business partnering","Payroll","Work permits","Facilities management","Hotel operations","Procurement","Event logistics"],"url":"https://melvin2682.github.io/","image":"https://melvin2682.github.io/assets/img/hero-720.webp","sameAs":["https://x.com/themelvinpang"]}}</script>
-<link rel="preload" href="assets/fonts/playfair.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ProfilePage","url":"https://melvin2682.github.io/","dateModified":"2026-10-13","inLanguage":["en","zh-Hans"],"mainEntity":{"@type":"Person","name":"Melvin Pang","jobTitle":"Administration & Operations Manager","description":"Administration, operations and HR manager with 15 years across HR, office operations and hospitality. Seeking Administration, Operations, Facilities or Hotel/Resort General Manager roles in Malaysia, Cambodia and New Zealand.","nationality":{"@type":"Country","name":"Malaysia"},"homeLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Phnom Penh","addressCountry":"KH"}},"email":"mailto:melvinpang910629@gmail.com","telephone":["+60125272682","+85585272672"],"knowsLanguage":["en","zh","ms","yue"],"knowsAbout":["Administration management","Office set-up and fit-out","HR business partnering","Payroll","Work permits","Facilities management","Hotel operations","Procurement","Event logistics"],"url":"https://melvin2682.github.io/","image":"https://melvin2682.github.io/assets/img/hero-720.webp","sameAs":["https://x.com/themelvinpang","https://t.me/xavier121209"]}}</script>
+<link rel="preload" href="assets/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/work-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/playfair-italic.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" as="image" href="assets/img/hero-720.webp" imagesrcset="assets/img/hero-480.webp 480w, assets/img/hero-720.webp 720w, assets/img/hero-840.webp 840w, assets/img/hero-1024.webp 1024w" imagesizes="(max-width: 899px) 100vw, 36vw" fetchpriority="high">
@@ -506,6 +506,150 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
 
 .num,h1,h2,h3,.role,.kick,.sig,.job .also,.result .num,.result h3,.result dt,.hero h1,.sec-head h2,.statement p,.contact h2,.job h3,.clist dd,.work figcaption b,.menu a,.mark{font-variant-numeric:lining-nums}
 .job .yr{font-variant-numeric:tabular-nums lining-nums}
+
+/* ===== Design Library pass (2026-10-14): S1 Swiss · E7 sans + italic serif accent · T29 odometer · T25 split-flap · T38 marker · B3 strip reveal · W8 HUD corners ===== */
+@font-face{font-family:'Bricolage Grotesque';font-style:normal;font-weight:400 700;font-display:swap;src:url(assets/fonts/bricolage.woff2) format('woff2')}
+:root{--f-display:'Bricolage Grotesque','PingFang SC','Hiragino Sans GB','Noto Sans SC','Microsoft YaHei',system-ui,-apple-system,'Segoe UI',sans-serif;
+  --f-accent:'Playfair Display','Songti SC','Noto Serif SC','Source Han Serif SC',Georgia,serif;
+  --accent:#C8321A;--track-display:-0.028em}
+@media (prefers-color-scheme:dark){:root{--accent:#FF7A5C}}
+.hero,.inv,.nav.on-stage{--accent:#FF7A5C}
+h1,h2,h3{font-weight:600}
+.hero h1{font-weight:700;letter-spacing:-.045em}
+h3{font-weight:500;letter-spacing:-.015em}
+h1 em,h2 em,h3 em,.statement p em,.mark em{font-family:var(--f-accent);font-weight:400;letter-spacing:0}
+.kick,.role,.otr figcaption,.statement .sig,.result dt,.job .also,.facts dt,.vw-meta{font-family:var(--f-accent)}
+.role{font-weight:400}
+.statement p{font-weight:400;letter-spacing:-.022em}
+:lang(zh) h1,:lang(zh) h2,:lang(zh) h3,:lang(zh) .statement p{letter-spacing:0}
+:lang(zh) h1 em,:lang(zh) h2 em,:lang(zh) h3 em,:lang(zh) .statement p em{font-family:var(--f-display);font-style:normal;font-weight:600;color:inherit}
+/* S1 — Swiss index numbers + red accent */
+body{counter-reset:sec}
+section.sec{counter-increment:sec}
+.sec .kick::before{content:counter(sec,decimal-leading-zero);width:auto;height:auto;background:none;opacity:1;padding-right:.8rem;border-right:1px solid var(--line-strong);font:500 .8rem/1 var(--f-body);font-style:normal;letter-spacing:.06em;color:var(--accent);font-variant-numeric:tabular-nums}
+.inv .kick::before{border-color:var(--inv-line)}
+#h-results::before,#h-exp::before,#h-details::before{content:counter(sec,decimal-leading-zero);display:block;margin-bottom:1.1rem;font:500 .8rem/1 var(--f-body);letter-spacing:.06em;color:var(--accent);font-variant-numeric:tabular-nums}
+.hero .status::before{width:.55rem;height:.55rem;border-radius:50%;background:var(--accent);opacity:1;flex:none}
+.motion .hero .status::before{animation:live 2.4s ease-out infinite}
+@keyframes live{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 55%,transparent)}70%,100%{box-shadow:0 0 0 .55rem transparent}}
+.hero h1 .w:last-child>span::after{content:"";display:inline-block;width:.15em;height:.15em;margin-left:.05em;border-radius:50%;background:var(--accent);vertical-align:.02em}
+.result .num{font-family:var(--f-display);font-weight:650;letter-spacing:-.045em;line-height:1;font-variant-numeric:tabular-nums lining-nums}
+.result .num::after{content:"";display:inline-block;width:.13em;height:.13em;margin-left:.06em;border-radius:50%;background:var(--accent);vertical-align:.04em}
+.results{border-top-width:2px;border-top-color:var(--ink)}
+/* T29 — odometer digits */
+.odo{display:inline-block;height:1em;overflow:hidden;vertical-align:top}
+.odo>span{display:block;will-change:transform}
+.odo>span>b{display:block;height:1em;font-weight:inherit}
+/* T38 — highlight marker */
+.statement p em{background:linear-gradient(transparent 60%,color-mix(in srgb,var(--accent) 24%,transparent) 60%,color-mix(in srgb,var(--accent) 24%,transparent) 92%,transparent 92%) no-repeat 0 0/100% 100%;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.motion .statement p em{transition:background-size 1.2s var(--ease) .35s}
+.motion .statement:not(.lit) p em{background-size:0 100%}
+/* B3 — vertical strip reveal on the portrait */
+.plate .strips{position:absolute;inset:0;display:flex;pointer-events:none;z-index:2}
+.plate .strips i{flex:1 1 0;margin-right:-1px;background:var(--bg);transform:scaleY(0);transform-origin:50% 0}
+.plate .strips i:nth-child(even){transform-origin:50% 100%}
+.motion .plate .strips i{animation:strip 1.05s var(--ease) both}
+.motion .plate .strips i:nth-child(1){animation-delay:.12s}.motion .plate .strips i:nth-child(2){animation-delay:.2s}.motion .plate .strips i:nth-child(3){animation-delay:.28s}.motion .plate .strips i:nth-child(4){animation-delay:.36s}.motion .plate .strips i:nth-child(5){animation-delay:.44s}
+@keyframes strip{from{transform:scaleY(1)}to{transform:scaleY(0)}}
+/* W8 — HUD corner marks */
+.plate .hud{position:absolute;inset:12px;pointer-events:none;z-index:3;color:var(--ink)}
+.plate .hud i{position:absolute;width:16px;height:16px;border:0 solid currentColor;opacity:.6}
+.plate .hud i:nth-child(1){top:0;left:0;border-width:1px 0 0 1px}.plate .hud i:nth-child(2){top:0;right:0;border-width:1px 1px 0 0}
+.plate .hud i:nth-child(3){bottom:0;left:0;border-width:0 0 1px 1px}.plate .hud i:nth-child(4){bottom:0;right:0;border-width:0 1px 1px 0}
+.plate .hud span{position:absolute;font:500 .66rem/1 var(--f-body);letter-spacing:.14em;text-transform:uppercase;font-variant-numeric:tabular-nums;color:var(--ink);opacity:.82}
+.plate .hud .hud-t{top:4px;left:26px}.plate .hud .hud-b{bottom:4px;right:26px}
+.motion .plate .hud{animation:hudin .8s var(--ease) .9s both}
+@keyframes hudin{from{opacity:0;transform:scale(1.03)}to{opacity:1;transform:none}}
+/* T25 — split-flap overlay */
+.flap{position:absolute;pointer-events:none;overflow:hidden}
+@media (prefers-reduced-motion:reduce){.plate .strips,.plate .hud{animation:none!important}.plate .strips{display:none}.motion .hero .status::before{animation:none}}
+@media print{.plate .strips,.plate .hud,#h-results::before,#h-exp::before,#h-details::before,.result .num::after{display:none!important}}
+
+/* ===== Design Library pass 2 (2026-10-14): hero instrument panel · scroll-read profile · bento results · film strip · passport details · paper collage ===== */
+@font-face{font-family:'Caveat';font-style:normal;font-weight:500;font-display:swap;src:url(assets/fonts/caveat.woff2) format('woff2')}
+/* HERO — W8 instrument panel */
+.hero{background-image:linear-gradient(rgba(241,239,233,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(241,239,233,.045) 1px,transparent 1px);background-size:64px 64px;background-position:-1px -1px}
+.plate figcaption span:nth-child(2){display:none}
+@media (min-width:900px){.plate .frame{height:min(calc(100svh - var(--nav) - 190px),calc((100vw - 2 * var(--pad)) * .42 * 1.5),760px)}}
+.gauges{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:.55rem 0 0;border-top:1px solid var(--line-strong)}
+.gauges div{position:relative;display:flex;flex-direction:column-reverse;justify-content:flex-end;gap:.35rem;padding:.75rem .5rem 0 0;min-width:0}
+.gauges div+div{padding-left:.75rem;border-left:1px solid var(--line)}
+.gauges div::before{content:"";position:absolute;top:-3px;left:0;width:5px;height:5px;background:var(--accent)}
+.gauges div+div::before{left:-3px}
+.gauges dd{margin:0;font:650 clamp(1.35rem,2vw,1.95rem)/1 var(--f-display);letter-spacing:-.04em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.gauges dt{font-size:.74rem;line-height:1.3;color:var(--muted)}
+:lang(zh) .gauges dd{letter-spacing:-.01em}
+@media (max-width:899px){.gauges dd{font-size:1.3rem}.gauges dt{font-size:.7rem}}
+@media (max-width:440px){.gauges{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:.9rem}.gauges div:nth-child(3){padding-left:0;border-left:0}.gauges div:nth-child(3)::before{left:0}}
+/* PROFILE — scroll-read reveal */
+.statement .rw{transition:color .3s linear}
+.motion .statement.read .rw:not(.on){color:#858582}
+@media (prefers-color-scheme:dark){.motion .statement.read .rw:not(.on){color:#727270}}
+/* RESULTS — W6 bento */
+.results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:2px solid var(--ink);border-left:1px solid var(--line)}
+.result{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:clamp(330px,29vw,420px);padding:clamp(22px,2.6vw,40px);border-bottom:1px solid var(--line);border-right:1px solid var(--line);overflow:hidden;transition:background-color .35s var(--ease)}
+.result .val{grid-column:auto;margin:0;display:block;padding-right:7.5rem}
+.result .num{font-size:clamp(3.4rem,6.6vw,6.2rem)}
+.result .unit{margin-top:.55rem}
+.result .body{grid-column:auto;margin-top:2.5rem}
+.result h3{font-size:clamp(1.2rem,1.75vw,1.55rem);line-height:1.2;max-width:24ch}
+.result .meta{margin:.4rem 0 0}
+.ev{position:absolute;top:clamp(18px,2.2vw,32px);right:clamp(18px,2.2vw,32px);z-index:3;display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:0 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg);color:var(--ink);font:500 .85rem/1 var(--f-body);cursor:pointer;transition:background-color var(--fast),color var(--fast),border-color var(--fast)}
+.ev-i{display:inline-block;font-size:1.1rem;line-height:1;transition:transform .35s var(--ease)}
+.ev:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+:root:not(.js) .ev{display:none}
+.js .result dl{position:absolute;inset:0;z-index:2;display:flex;flex-direction:column;justify-content:flex-end;gap:1.1rem;margin:0;padding:5.5rem clamp(22px,2.6vw,40px) clamp(22px,2.6vw,40px);background:var(--ink);color:var(--bg);opacity:0;visibility:hidden;transform:translateY(10px);transition:opacity .3s var(--ease),transform .5s var(--ease),visibility 0s linear .5s}
+.js .result dl dt{color:color-mix(in srgb,var(--bg) 72%,transparent)}
+.js .result dl dd{font-size:.98rem;line-height:1.55}
+.js .result.open dl{opacity:1;visibility:visible;transform:none;transition:opacity .3s var(--ease),transform .5s var(--ease),visibility 0s}
+.result.open .ev{background:var(--bg);color:var(--ink);border-color:var(--bg)}
+.result.open .ev-i{transform:rotate(45deg)}
+@media (hover:hover) and (pointer:fine){.result:hover{background:color-mix(in srgb,var(--ink) 3%,transparent)}.result:hover .ev{border-color:var(--bg);background:var(--bg)}.result:hover .ev-i{transform:rotate(45deg)}.js .result:hover dl{opacity:1;visibility:visible;transform:none;transition:opacity .3s var(--ease) .2s,transform .5s var(--ease) .2s,visibility 0s .2s}}
+@media (max-width:899px){.results{grid-template-columns:1fr}.result{display:flex;min-height:0}.result .val{display:block;padding-right:0}.result .num{font-size:clamp(2.8rem,13vw,4.2rem)}.result .body{margin-top:1.5rem}.ev{position:static;order:3;align-self:flex-start;margin-top:1.25rem}.js .result dl{position:static;display:none;padding:1.25rem 0 0;background:none;color:inherit;opacity:1;visibility:visible;transform:none;transition:none}.js .result.open dl{display:flex}.js .result dl dt{color:var(--muted)}.result.open .ev{border-color:var(--ink)}}
+@media (prefers-reduced-motion:reduce){.js .result dl{transition:none}}
+/* WORK — C5 cinematic film strip */
+.reel-ctl{display:flex;justify-content:flex-end;gap:.5rem;margin:0 0 1rem}
+:root:not(.js) .reel-ctl{display:none}
+.rc{min-height:44px;min-width:44px;border-radius:999px;border:1px solid var(--inv-line);background:transparent;color:var(--inv-ink);font:500 1rem/1 var(--f-body);cursor:pointer;transition:background-color var(--fast),border-color var(--fast)}
+.rc:hover{border-color:var(--inv-ink)}.rc:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.rc[disabled]{opacity:.35;cursor:default}
+.filmstrip{position:relative;margin-inline:calc(-1 * var(--pad));padding:38px 0 30px;background:#0b0b0a;--h:clamp(250px,32vw,430px)}
+.filmstrip::before,.filmstrip::after{content:"";position:absolute;left:0;right:0;height:10px;background:repeating-linear-gradient(90deg,transparent 0 12px,rgba(243,243,241,.17) 12px 26px,transparent 26px 40px)}
+.filmstrip::before{top:12px}.filmstrip::after{bottom:10px}
+.filmstrip .pf{display:flex;gap:16px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x mandatory;scroll-padding-inline:var(--pad);padding:0 var(--pad) 22px;scrollbar-width:none;counter-reset:fr}
+.filmstrip .pf::-webkit-scrollbar{display:none}
+.filmstrip .pf li{flex:0 0 auto;scroll-snap-align:start;counter-increment:fr;grid-column:auto!important;grid-row:auto!important;--ar:1.78}
+.filmstrip .pf li.pf-reel{--ar:.69}.filmstrip .pf li.pf-site{--ar:1.97}.filmstrip .pf li.pf-olafi{--ar:1.34}.filmstrip .pf li.pf-web{--ar:1.6}.filmstrip .pf li.pf-mira{--ar:1.6}
+.filmstrip .tile{width:calc(var(--h) * var(--ar));height:auto}
+.filmstrip .thumb,.filmstrip .pf-reel .thumb,.filmstrip .pf-web .thumb,.filmstrip .pf-olafi .thumb{height:var(--h);width:100%;aspect-ratio:auto;min-height:0;flex:none;border-radius:2px}
+.filmstrip .cap b::before{content:counter(fr,decimal-leading-zero);display:inline-block;margin-right:.6rem;font:500 .78rem/1 var(--f-body);letter-spacing:.08em;color:var(--accent);vertical-align:.12em}
+.filmstrip .thumb video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity .4s var(--ease)}
+.filmstrip .pf-reel .thumb video{object-fit:contain}
+.filmstrip .thumb video.on{opacity:1}
+@media (max-width:899px){.filmstrip{--h:240px}}
+/* DETAILS — passport data page */
+.pp{position:relative;max-width:1100px;border:1px solid var(--line-strong);border-radius:14px;overflow:hidden;background-color:var(--bg);background-image:repeating-radial-gradient(circle at 88% 22%,transparent 0 10px,color-mix(in srgb,var(--accent) 7%,transparent) 10px 11px)}
+.pp-h{display:flex;justify-content:space-between;gap:1rem;padding:.85rem clamp(16px,2.2vw,30px);background:var(--ink);color:var(--bg);font:500 .72rem/1 var(--f-body);letter-spacing:.18em;text-transform:uppercase}
+.pp-body{display:grid;grid-template-columns:minmax(130px,190px) 1fr;gap:clamp(16px,2.6vw,40px);padding:clamp(18px,2.6vw,36px) clamp(16px,2.2vw,30px)}
+.pp-photo{align-self:start;aspect-ratio:3/4;overflow:hidden;border-radius:6px;background:var(--media-bg);box-shadow:inset 0 0 0 1px var(--line)}
+.pp-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 0;transform:scale(2.6);transform-origin:44% 9%}
+.pp .facts{grid-template-columns:repeat(2,minmax(0,1fr));border:0;column-gap:clamp(16px,2.4vw,36px)}
+.pp .facts div,.pp .facts .wide{grid-column:auto;background:transparent;border:0;border-bottom:1px dashed var(--line);padding:.95rem 0}
+.pp .facts dt{font:500 .72rem/1.2 var(--f-body);letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:.55rem}
+:lang(zh) .pp .facts dt{letter-spacing:.04em;font-size:.82rem}
+.mrz{margin:0;padding:.95rem clamp(16px,2.2vw,30px) 1.15rem;border-top:1px solid var(--line);font:500 clamp(.7rem,1.2vw,.98rem)/1.55 'OCR B','OCR-B','Courier New',ui-monospace,Menlo,monospace;letter-spacing:.2em;color:var(--muted);white-space:nowrap;overflow:hidden}
+.mrz span{display:block;overflow:hidden}
+@media (max-width:640px){.pp-body{grid-template-columns:1fr}.pp-photo{width:120px}.pp .facts{grid-template-columns:1fr}}
+@media print{.pp-h,.pp-photo,.mrz,.ev{display:none!important}.pp{border:0;border-radius:0;background:none}.pp-body{display:block;padding:0}.pp .facts{grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line-strong);border-left:1px solid var(--line)}.pp .facts div,.pp .facts .wide{padding:5pt 6pt;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.pp .facts .wide{grid-column:span 2}.pp .facts dt{font-size:7pt;margin-bottom:3pt;letter-spacing:.06em}.results{display:block;border-left:0;border-top:1px solid var(--line-strong)}.result{display:grid;grid-template-columns:22mm 1fr;min-height:0;padding:6pt 0;border-right:0;border-bottom:1px dashed var(--line);break-inside:avoid}.result .val{padding-right:0}.result .body{margin-top:0}.result .num{font-size:16pt}.result h3{font-size:11pt;margin-bottom:2pt;max-width:none}.js .result dl{position:static;display:grid;grid-template-columns:1fr 1fr;gap:4pt 12pt;opacity:1;visibility:visible;transform:none;background:none;color:inherit;padding:0}.js .result dl dt{color:var(--muted)}.js .result dl dd{font-size:inherit}}
+/* LIFE — S10 paper collage */
+#life{position:relative}
+#life::before{content:"";position:absolute;left:0;right:0;top:-12px;height:13px;background:var(--bg-alt);clip-path:polygon(0 100%,0.0% 25%,1.2% 85%,2.6% 25%,3.5% 10%,4.9% 40%,6.8% 10%,7.9% 70%,9.2% 25%,11.2% 40%,12.3% 10%,14.2% 40%,16.1% 25%,17.2% 40%,18.9% 85%,21.0% 40%,21.9% 70%,23.2% 55%,24.7% 25%,25.8% 40%,26.8% 70%,28.7% 10%,30.8% 70%,32.6% 40%,34.6% 70%,35.7% 55%,37.3% 55%,38.7% 25%,40.0% 10%,40.9% 55%,42.6% 40%,44.1% 85%,45.5% 40%,46.5% 85%,47.6% 55%,49.7% 85%,51.4% 40%,52.4% 55%,54.3% 40%,56.0% 25%,58.0% 10%,60.0% 85%,61.1% 70%,62.8% 25%,63.8% 25%,65.0% 10%,65.8% 85%,66.7% 40%,68.6% 40%,69.4% 40%,70.7% 25%,72.5% 55%,74.5% 70%,76.3% 10%,77.5% 25%,79.6% 40%,80.6% 55%,82.2% 25%,83.5% 10%,84.8% 55%,85.8% 40%,88.0% 70%,88.9% 25%,90.3% 25%,91.3% 10%,92.2% 25%,93.8% 25%,95.4% 70%,96.9% 25%,98.2% 10%,99.2% 70%,100% 30%,100% 100%)}
+.otr figure::before{content:"";position:absolute;z-index:3;top:-15px;left:50%;width:min(120px,30%);height:30px;transform:translateX(-50%) rotate(-3deg);background:rgba(226,214,182,.78);box-shadow:0 1px 2px rgba(0,0,0,.1);clip-path:polygon(0 8%,4% 0,9% 10%,14% 2%,86% 4%,91% 0,96% 9%,100% 3%,100% 92%,95% 100%,90% 91%,85% 99%,15% 96%,10% 100%,5% 91%,0 98%)}
+.otr-fish::before{left:22%;transform:translateX(-50%) rotate(8deg)}
+.otr-ride::after{content:"";position:absolute;z-index:3;bottom:46px;right:-16px;width:76px;height:26px;transform:rotate(-38deg);background:rgba(226,214,182,.78);box-shadow:0 1px 2px rgba(0,0,0,.1)}
+.otr figcaption{font:500 clamp(1.35rem,1.9vw,1.7rem)/1.05 'Caveat','Kaiti SC','STKaiti','KaiTi',cursive;font-style:normal;color:#2a2a28;padding:.55rem .2rem .7rem}
+:lang(zh) .otr figcaption{font-family:'Kaiti SC','STKaiti','KaiTi','Caveat',serif;font-size:clamp(1.05rem,1.4vw,1.25rem)}
+@media print{#life::before,.otr figure::before,.otr-ride::after{display:none}}
 </style>
 </head>
 <body>
@@ -530,7 +674,7 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
         <button type="button" data-lang="zh" aria-pressed="false" lang="zh-Hans">中文</button>
       </div>
-      <a class="btn solid cv-nav" href="assets/Melvin-Pang-CV.pdf?v=20261013-1918" data-cv download><span data-i="cvNav">CV</span><span class="long">(PDF)</span></a>
+      <a class="btn solid cv-nav" href="assets/Melvin-Pang-CV.pdf?v=20261014-2332" data-cv download><span data-i="cvNav">CV</span><span class="long">(PDF)</span></a>
       <button type="button" class="btn line menu-btn" aria-expanded="false" aria-controls="menu"><span data-i="menu">Menu</span></button>
     </div>
   </div>
@@ -544,7 +688,7 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
     <li><a href="#details" data-i="n6">Details</a></li>
     <li><a href="#contact" data-i="n5">Contact</a></li>
   </ul>
-  <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261013-1918" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
+  <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261014-2332" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
 </div>
 
 <main id="main" tabindex="-1">
@@ -556,9 +700,9 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
       <h1 id="h1"><span class="w"><span>Melvin</span></span> <span class="w"><span>Pang</span></span></h1>
       <p class="role" data-rv style="--d:1" data-i="role">Administration &amp; Operations Manager</p>
       <p class="lead" data-rv style="--d:2" data-a="lead">Five years as the founder’s right hand at a ~1,000-person group: <strong>HR and payroll for all of them</strong>, <strong>two offices opened on US$800,000</strong>, trusted with <strong>funds, VIPs and confidential files</strong>, and <strong>weekly reporting in Mandarin and English</strong>. Before that, a resort GM with full P&amp;L.</p>
-      <p class="print-contact"><a href="https://wa.me/60125272682">+60 12-527 2682 (WhatsApp)</a> · <a href="tel:+85585272672">+855 85 272 672</a> · <a href="mailto:melvinpang910629@gmail.com">melvinpang910629@gmail.com</a> · WeChat melvin_0629 · <a href="https://melvin2682.github.io/">melvin2682.github.io</a></p>
+      <p class="print-contact"><a href="https://wa.me/60125272682">+60 12-527 2682 (WhatsApp)</a> · <a href="tel:+85585272672">+855 85 272 672</a> · <a href="mailto:melvinpang910629@gmail.com">melvinpang910629@gmail.com</a> · Telegram @xavier121209 · WeChat melvin_0629 · <a href="https://melvin2682.github.io/">melvin2682.github.io</a></p>
       <div class="ctas" data-rv style="--d:3">
-        <a class="btn solid" id="cta-a" href="assets/Melvin-Pang-CV.pdf?v=20261013-1918" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
+        <a class="btn solid" id="cta-a" href="assets/Melvin-Pang-CV.pdf?v=20261014-2332" data-cv download><span data-i="cta1">Download CV</span> <span class="ar" aria-hidden="true">→</span></a>
         <a class="btn line" id="cta-b" href="#contact"><span data-i="cta2">Contact me</span> <span class="ar" aria-hidden="true">→</span></a>
       </div>
       <dl class="ledger" data-rv style="--d:4">
@@ -581,8 +725,14 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
     <figure class="plate">
       <div class="frame"><div class="pimg">
         <img src="assets/img/hero-720.webp" srcset="assets/img/hero-480.webp 480w, assets/img/hero-720.webp 720w, assets/img/hero-840.webp 840w, assets/img/hero-1024.webp 1024w" sizes="(max-width: 899px) 100vw, 36vw" width="720" height="1080" alt="Melvin Pang leaning on stacked white letter blocks that spell MELVIN" data-ialt="portraitA" id="portrait" fetchpriority="high">
-      </div></div>
+      </div><div class="strips" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><div class="hud" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="hud-t">Personnel file · 01</span><span class="hud-b">11.56° N · 104.92° E</span></div></div>
       <figcaption><span data-i="plate1">Melvin Pang, Phnom Penh</span><span data-i="plate2">15 years · 6 countries</span></figcaption>
+      <dl class="gauges">
+        <div><dt data-i="g1k">years working</dt><dd class="gnum" data-i="g1v">15</dd></div>
+        <div><dt data-i="g2k">staff on my payroll</dt><dd class="gnum" data-i="g2v">~1,000</dd></div>
+        <div><dt data-i="g3k">countries</dt><dd class="gnum" data-i="g3v">6</dd></div>
+        <div><dt data-i="g4k">office capital</dt><dd class="gnum" data-i="g4v">US$800K</dd></div>
+      </dl>
     </figure>
   </div>
 </section>
@@ -611,7 +761,8 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <div class="body">
           <h3 data-i="r2t">Two offices opened on budget and on time</h3>
           <p class="meta" data-i="r2m">Philippines 2022 · Singapore 2024–25</p>
-          <dl>
+          <button type="button" class="ev" aria-expanded="false" aria-controls="ev-offices"><span data-i="evT">Evidence</span> <span class="ev-i" aria-hidden="true">+</span></button>
+          <dl id="ev-offices">
             <div><dt data-i="did">What I did</dt><dd data-i="r2d">Sourced the sites, negotiated the leases and ran the renovations. Planned the floor layouts and furnished both the offices and the staff housing, with equipment and procurement through to opening day.</dd></div>
             <div><dt data-i="res">Result</dt><dd data-i="r2r">Both offices opened on budget and on time, on capital budgets of US$300,000 and US$500,000.</dd></div>
           </dl>
@@ -622,7 +773,8 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <div class="body">
           <h3 data-i="r1t">150+ foreign employees, every permit renewed in time</h3>
           <p class="meta" data-i="r1m">Regional trading group · Cambodia · 2021–26</p>
-          <dl>
+          <button type="button" class="ev" aria-expanded="false" aria-controls="ev-permits"><span data-i="evT">Evidence</span> <span class="ev-i" aria-hidden="true">+</span></button>
+          <dl id="ev-permits">
             <div><dt data-i="did">What I did</dt><dd data-i="r1d">Built a renewal tracker from scratch: a 60-day alert to prepare documents and funding, a 30-day deadline to submit, and a passport-validity check. I handled every submission with the authorities.</dd></div>
             <div><dt data-i="res">Result</dt><dd data-i="r1r">In four years, none of 150+ foreign employees lost a working day. Payroll for about 1,000 staff ran on time, every cycle.</dd></div>
           </dl>
@@ -633,7 +785,8 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <div class="body">
           <h3 data-i="r4t">A boutique resort run with full P&amp;L</h3>
           <p class="meta" data-i="r4m">The Acres Resort · Prunus Hotels · Malaysia · 2019–21</p>
-          <dl>
+          <button type="button" class="ev" aria-expanded="false" aria-controls="ev-resort"><span data-i="evT">Evidence</span> <span class="ev-i" aria-hidden="true">+</span></button>
+          <dl id="ev-resort">
             <div><dt data-i="did">What I did</dt><dd data-i="r4d">Set the budget, owned revenue and costs, and ran rates and distribution on Cloudbeds, Booking.com, Agoda, Expedia and Traveloka, with a team of 20 across seven departments.</dd></div>
             <div><dt data-i="res">Result</dt><dd data-i="r4r">Averaged 80%+ occupancy, and kept the property maintained and upgraded through the 2020–21 lockdown closures.</dd></div>
           </dl>
@@ -644,7 +797,8 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <div class="body">
           <h3 data-i="r3t">Every incident answered within 15 minutes</h3>
           <p class="meta" data-i="r3m">GOGOTEL Hospitality · Klang Valley · 2016–19</p>
-          <dl>
+          <button type="button" class="ev" aria-expanded="false" aria-controls="ev-phone"><span data-i="evT">Evidence</span> <span class="ev-i" aria-hidden="true">+</span></button>
+          <dl id="ev-phone">
             <div><dt data-i="did">What I did</dt><dd data-i="r3d">Led an operations team of 10–20 across check-ins, turnarounds, housekeeping and security standards, and carried the 24-hour escalation phone for guests, owners and site teams.</dd></div>
             <div><dt data-i="res">Result</dt><dd data-i="r3r">Every incident answered within 15 minutes for three and a half years, while the portfolio grew from under 100 to 200+ properties.</dd></div>
           </dl>
@@ -742,6 +896,8 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
       </div>
       <p class="aside" data-i="wP" data-rv>From 2024 I also led visual marketing: bilingual campaigns, brand films and AI-built sites. Open any piece for the full view.</p>
     </div>
+    <div class="reel-ctl" aria-hidden="false"><button type="button" class="rc rc-prev" data-ia="stripPrev" aria-label="Scroll work left"><span aria-hidden="true">←</span></button><button type="button" class="rc rc-next" data-ia="stripNext" aria-label="Scroll work right"><span aria-hidden="true">→</span></button></div>
+    <div class="filmstrip">
     <ul class="pf" role="list">
       <li class="pf-reel" data-rv><button type="button" class="tile" data-proj="xavier" aria-haspopup="dialog">
         <span class="thumb"><img src="assets/img/xavier-tile.webp" width="360" height="520" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
@@ -749,6 +905,9 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
       <li class="pf-film" data-rv><button type="button" class="tile" data-proj="auracell-film" aria-haspopup="dialog">
         <span class="thumb"><img src="assets/img/auracell-film-poster.webp" width="854" height="480" loading="lazy" decoding="async" alt=""><span class="badge"><svg viewBox="0 0 14 14" aria-hidden="true"><path d="M3 1.5v11l9-5.5z" fill="currentColor"/></svg><span data-i="film">Teaser</span></span></span>
         <span class="cap"><b data-i="p2t">AURACELL · product film</b><span data-i="p2m">Direction · AI footage · 6-second teaser</span></span></button></li>
+      <li class="pf-mira" data-rv><button type="button" class="tile" data-proj="miralune" aria-haspopup="dialog">
+        <span class="thumb"><img src="assets/img/miralune-tile.webp" width="800" height="500" loading="lazy" decoding="async" alt=""><span class="badge"><span data-i="p7n">8 boards</span></span></span>
+        <span class="cap"><b data-i="p7t">MIRALUNE · brand identity</b><span data-i="p7m">Self-initiated concept · skincare</span></span></button></li>
       <li class="pf-site" data-rv><button type="button" class="tile" data-proj="auracell-site" aria-haspopup="dialog">
         <span class="thumb"><img src="assets/img/auracell-site-640.webp" srcset="assets/img/auracell-site-640.webp 640w, assets/img/auracell-site.webp 1040w" sizes="(max-width: 899px) 100vw, 30vw" width="640" height="325" loading="lazy" decoding="async" alt=""></span>
         <span class="cap"><b data-i="p3t">AURACELL · landing page</b><span data-i="p3m">Skincare launch site</span></span></button></li>
@@ -762,6 +921,7 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <span class="thumb"><img src="assets/img/site-hero-640.webp" srcset="assets/img/site-hero-640.webp 640w, assets/img/site-hero.webp 1440w" sizes="(max-width: 899px) 100vw, 30vw" width="640" height="400" loading="lazy" decoding="async" alt=""><span class="badge"><span data-i="p6n">You are here</span></span></span>
         <span class="cap"><b data-i="p6t">This website</b><span data-i="p6m">Design and build · AI-assisted code</span></span></button></li>
     </ul>
+    </div>
   </div>
 </section>
 
@@ -772,7 +932,11 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
         <h2 id="h-details" data-i="dH" data-rv>Practical details</h2>
       </div>
     </div>
-    <dl class="facts" data-rv>
+    <div class="pp" data-rv>
+    <div class="pp-h" aria-hidden="true"><span>Personnel file</span><span>MP · 01</span></div>
+    <div class="pp-body">
+    <div class="pp-photo"><img src="assets/img/hero-480.webp" width="480" height="720" loading="lazy" decoding="async" alt=""></div>
+    <dl class="facts">
       <div class="wide"><dt data-i="d1k">Languages</dt><dd><ul>
         <li><b data-i="lgEn">English</b><span data-i="pro">Professional</span></li>
         <li><b data-i="lgZh">Mandarin Chinese</b><span data-i="pro">Professional</span></li>
@@ -785,6 +949,9 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
       <div><dt data-i="d5k">Trusted with</dt><dd data-i="d5v">Funds · People · VIP logistics · Confidential files</dd></div>
       <div><dt data-i="d6k">Worked in</dt><dd data-i="d6v">Cambodia · Philippines · Singapore · Vietnam · Malaysia · Thailand</dd></div>
     </dl>
+    </div>
+    <p class="mrz" aria-hidden="true"><span>P&lt;MYSPANG&lt;&lt;MELVIN&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span><span>AVAILABLE&lt;NOW&lt;&lt;OPEN&lt;TO&lt;RELOCATION&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;</span></p>
+    </div>
     <p class="aside print-only" style="margin:1.25rem 0 0;color:var(--muted)" data-i="d7v">Outside work: fishing and motorcycling.</p>
   </div>
 </section>
@@ -817,12 +984,13 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
       <p class="intro" data-i="cP" data-rv>Based in Phnom Penh, available now and open to relocation. Message me in English, Mandarin, Bahasa Malaysia or Cantonese.</p>
       <dl class="clist" data-rv>
         <div><dt>WhatsApp</dt><dd><a href="https://wa.me/60125272682" data-wa rel="noopener" target="_blank">+60 12-527 2682<span class="sr" data-i="newtab"> (opens in a new tab)</span></a></dd></div>
+        <div><dt>Telegram</dt><dd><a href="https://t.me/xavier121209" rel="noopener" target="_blank">@xavier121209<span class="sr" data-i="newtab"> (opens in a new tab)</span></a></dd></div>
         <div><dt data-i="k2">Phone (Cambodia)</dt><dd><a href="tel:+85585272672">+855 85 272 672</a></dd></div>
         <div><dt data-i="k3">Email</dt><dd><a href="mailto:melvinpang910629@gmail.com">melvinpang910629@gmail.com</a></dd></div>
         <div><dt data-i="k4">WeChat</dt><dd class="wc"><span>melvin_0629</span><button type="button" class="copybtn" data-copy="melvin_0629"><span data-i="copy">Copy</span><span class="sr" data-i="k4">WeChat</span></button></dd></div>
       </dl>
       <div class="acts" data-rv>
-        <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261013-1918" data-cv download><span data-i="b1">Download CV (PDF)</span> <span class="ar" aria-hidden="true">→</span></a>
+        <a class="btn solid" href="assets/Melvin-Pang-CV.pdf?v=20261014-2332" data-cv download><span data-i="b1">Download CV (PDF)</span> <span class="ar" aria-hidden="true">→</span></a>
         <a class="btn line" href="assets/melvin-pang.vcf" download><span data-i="b2">Save contact</span> <span class="ar" aria-hidden="true">→</span></a>
       </div>
     </div>
@@ -865,6 +1033,7 @@ main:focus,main:focus-visible,section[tabindex="-1"]:focus{outline:none}
 
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
-<script src="assets/js/site.js?v=20261013-1918" defer></script>
+<script src="assets/js/site.js?v=20261014-2332" defer></script>
+<script src="assets/js/fx.js?v=20261014-2332" defer></script>
 </body>
 </html>

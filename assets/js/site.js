@@ -9,6 +9,7 @@
 
   /* ---------------- copy ---------------- */
   var ZH = {
+    g1k: '年工作经验', g1v: '15', g2k: '名员工的薪酬由我负责', g2v: '约 1,000', g3k: '个国家', g3v: '6', g4k: '两个新办公室的资本', g4v: '80 万美元', evT: '查看依据', stripPrev: '向左查看作品', stripNext: '向右查看作品',
     title: 'Melvin Pang · 行政与运营经理 · 简历',
     skip: '跳到正文', markL: 'Melvin Pang，回到顶部', navL: '页面导航', langL: '语言',
     n1: '简介', n2: '成果', n3: '履历', n4: '作品', n5: '联系', n6: '工作信息',
@@ -73,7 +74,7 @@
     wEy: '创意作品', wH: '另一半：<br><em>视觉创作亦由我主导。</em>', wHint: '用鼠标或手指划过它。',
     film: '预告', p1t: 'Xavier Studio · 宣传片', p1m: '导演 · 8 秒预告', p2t: 'AURACELL · 产品影片', p2m: '导演 · AI 画面 · 6 秒预告',
     p3t: 'AURACELL · 落地页', p3m: '护肤品上市网站', p4t: 'AI 叙事系列', p4m: '导演 · Google Flow、ChatGPT', p4n: '4 帧',
-    p5t: 'OLAFI · 品牌识别', p5m: '品牌概念', p5n: '2 张', p6t: '这个网站', p6m: '设计与搭建 · AI 辅助编程', p6n: '你正在看',
+    p7t: 'MIRALUNE · 品牌识别', p7m: '自主概念 · 护肤品牌', p7n: '8 张', p5t: 'OLAFI · 品牌识别', p5m: '品牌概念', p5n: '2 张', p6t: '这个网站', p6m: '设计与搭建 · AI 辅助编程', p6n: '你正在看',
     prevP: '上一个作品', nextP: '下一个作品', prevL: '上一张', nextL: '下一张', closeL: '关闭',
     audL: '以谁的角度看', audH: '会改变标题、成果顺序和 WhatsApp 开场语。', aHR: 'HR / 招聘', aF: '创始人', aC: '创意', aK: '客户', wP: '2024 年起我同时负责视觉营销：双语推广、品牌影片和 AI 搭建的网站。点开任意作品查看完整内容。',
     v1L: 'Xavier Studio 宣传片', v2L: 'AURACELL 护肤品产品影片', play: '播放', pause: '暂停',
@@ -87,12 +88,12 @@
     b1: '下载简历 PDF', b2: '保存联系人',
     f1: 'Melvin Pang · 简历 · 2026 年 10 月更新', f2: '雇主名称与推荐人可应要求提供。', f3: '回到顶部',
     wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？',
-    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261013-1918', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
+    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261014-2332', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
   };
   var ENX = {
     title: doc.title, hide: 'Hide the roles', menuClose: 'Close', vidErr: 'This browser could not play the video. Try another browser.', pause: 'Pause', copied: 'WeChat ID copied: ',
     wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
-    cv: 'assets/Melvin-Pang-CV.pdf?v=20261013-1918'
+    cv: 'assets/Melvin-Pang-CV.pdf?v=20261014-2332'
   };
   var AUD = {
     en: {
@@ -265,6 +266,18 @@
     { id: 'auracell-film', t: { en: 'AURACELL · product film', zh: 'AURACELL · 产品影片' }, m: { en: 'Direction · AI footage · 6-second teaser', zh: '导演 · AI 画面 · 6 秒预告' },
       b: { en: 'A launch film for the AURACELL skincare range. I directed it; the footage was generated with AI tools.', zh: 'AURACELL 护肤系列的上市影片。由我导演，画面由 AI 工具生成。' },
       s: [{ v: 'assets/video/auracell-film.mp4', p: 'assets/img/auracell-film-poster.webp', w: 854, h: 480, c: { en: 'Product film, 16:9.', zh: '产品影片，16:9。' } }] },
+    { id: 'miralune', t: { en: 'MIRALUNE · brand identity', zh: 'MIRALUNE · 品牌识别' }, m: { en: 'Self-initiated concept · skincare', zh: '自主概念 · 护肤品牌' },
+      b: { en: 'A self-initiated Xavier Studio brand identity for an evening-ritual skincare line: name, logo system, colour and type, packaging, label hierarchy, stationery, social launch and campaign. Product photography is AI-rendered concept work.', zh: 'Xavier Studio 自主发起的夜间护肤品牌识别：命名、标志系统、色彩与字体、包装、标签层级、印刷品、社交媒体上线与主视觉。产品图为 AI 渲染的概念图。' },
+      s: [
+        { i: 'assets/img/miralune-main.webp', w: 1600, h: 1000, a: { en: 'MIRALUNE brand cover with crescent-and-droplet mark', zh: 'MIRALUNE 品牌封面，新月水滴标志' }, c: { en: 'Cover: an evening-ritual skincare concept, “Skin, by moonlight.”', zh: '封面：夜间护肤概念品牌，“Skin, by moonlight.”' } },
+        { i: 'assets/img/miralune-logo.webp', w: 1600, h: 1000, a: { en: 'MIRALUNE logo lockups', zh: 'MIRALUNE 标志组合' }, c: { en: 'Logo system: crescent-and-droplet mark, lockups and a 16 px scale test.', zh: '标志系统：新月水滴图形、组合方式及 16 px 缩放测试。' } },
+        { i: 'assets/img/miralune-colour.webp', w: 1600, h: 1000, a: { en: 'MIRALUNE colour palette', zh: 'MIRALUNE 色板' }, c: { en: 'Colour: a six-colour palette and its proportions in use.', zh: '色彩：六色色板及使用比例。' } },
+        { i: 'assets/img/miralune-packaging.webp', w: 1600, h: 1000, a: { en: 'Four MIRALUNE skincare products', zh: '四款 MIRALUNE 护肤产品' }, c: { en: 'The range: packaging direction for four products (AI-rendered concept).', zh: '产品线：四款产品的包装方向（AI 渲染概念图）。' } },
+        { i: 'assets/img/miralune-stationery.webp', w: 1600, h: 1000, a: { en: 'MIRALUNE business cards, gift box and insert card', zh: 'MIRALUNE 名片、礼盒与卡片' }, c: { en: 'Stationery and unboxing touchpoints.', zh: '印刷品与开箱触点。' } },
+        { i: 'assets/img/miralune-social.webp', w: 1600, h: 1000, a: { en: 'Three MIRALUNE launch posts', zh: '三张 MIRALUNE 上线帖子' }, c: { en: 'Social launch: teaser, product reveal and ritual carousel.', zh: '社交媒体上线：预告、产品揭晓与使用步骤轮播。' } },
+        { i: 'assets/img/miralune-boxes.webp', w: 1600, h: 1000, a: { en: 'MIRALUNE retail carton and PR gift box', zh: 'MIRALUNE 零售外盒与公关礼盒' }, c: { en: 'Retail carton and PR gift box.', zh: '零售外盒与公关礼盒。' } },
+        { i: 'assets/img/miralune-campaign.webp', w: 1600, h: 1000, a: { en: 'MIRALUNE serum campaign visual', zh: 'MIRALUNE 精华主视觉' }, c: { en: 'Campaign hero: “The quiet hour.”', zh: '主视觉：“The quiet hour.”' } }
+      ] },
     { id: 'auracell-site', t: { en: 'AURACELL · landing page', zh: 'AURACELL · 落地页' }, m: { en: 'Skincare launch site', zh: '护肤品上市网站' },
       b: { en: 'The landing page for the AURACELL skincare launch, built to carry the same look as the film.', zh: 'AURACELL 护肤品上市的落地页，与影片保持同一视觉风格。' },
       s: [{ i: 'assets/img/auracell-site.webp', w: 1040, h: 528, a: { en: 'AURACELL landing page, hero section', zh: 'AURACELL 落地页首屏' }, c: { en: 'Hero section.', zh: '首屏。' } }] },
@@ -440,7 +453,7 @@
   var fallback = setTimeout(function () { root.classList.add('rv-all'); }, 6000);
   function loadAnime(cb) {
     if (window.anime && window.anime.animate) return cb();
-    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261013-1918'; sc.async = true;
+    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261014-2332'; sc.async = true;
     sc.onload = cb; sc.onerror = function () { root.classList.add('rv-all'); };
     doc.head.appendChild(sc);
   }
