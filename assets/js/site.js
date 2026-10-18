@@ -39,18 +39,18 @@
     r4r: '平均入住率 80% 以上；2020–21 年封锁停业期间，物业持续维护并完成升级。',
     eEy: '履历', y1: '2021.09 – 2026.08', y2: '2019.10 – 2021.08', y3: '2016.03 – 2019.10', eH: '职业经历，<em>按时间排列。</em>', eP: '雇主名称与推荐人可应要求提供。',
     e1t: '人事招聘与行政经理', e1o: '区域贸易集团，约 1,000 名员工 · 柬埔寨、菲律宾、新加坡 · 名称可应要求提供',
-    e1x: '2024 年起兼任视觉营销团队负责人',
+    e1x: '2024 年 9 月起兼任视觉营销团队负责人',
     e1a: '第一年：负责约 1,000 名员工的全部人事与行政。之后四年作为唯一的人力资源业务伙伴（HRBP）：招聘（每年约 30 人）、薪资、考核、工作准证与机密档案。',
     e1b: '开设菲律宾（2022）和新加坡（2024–25）办公室，从选址一直负责到开业当天。',
     e1c: '管理公司车队、资产登记、营业执照与保险；每周向创始人汇报，并管理每月逾 5 万美元的运营资金。',
     e1d: '负责 2025 年越南公司大会，约 1,000 人出席，按预算完成，未出现重大事故。',
-    e1e: '2024 年起带领 2–3 人的视觉营销团队：双语产品推广、印刷品、品牌视频，以及一个 AI 辅助搭建的客户网站。',
+    e1e: '2024 年 9 月起带领 2–3 人的视觉营销团队：双语产品推广、印刷品、品牌视频，以及一个 AI 辅助搭建的客户网站。',
     e1f: '借助 AI 工具，对照中文母本审核七语种技术出版物，付印前发现整页缺失。',
     e2t: '总经理', e2o: 'The Acres Resort · Prunus Hotels · 马来西亚',
     e2a: '全面管理 15 房度假村，直接向业主汇报。',
     e2b: '负责 Cloudbeds、Booking.com、Agoda、Expedia 和 Traveloka 的房价与分销。',
     e2c: '承办婚礼与企业活动；人手不足时亲自支援厨房与客房部。',
-    e3t: '运营经理', e3o: 'GOGOTEL Hospitality · 马来西亚巴生谷',
+    e3t: '运营经理 / 酒店经理', e3o: 'GOGOTEL Hospitality · 马来西亚巴生谷',
     e3a: '负责短租物业组合的日常运营，是客人、团队与业主的 24 小时应急联系人。',
     e3b: '负责清洁与安保标准、人事、PMS 系统与线上订房渠道。',
     e4t: '早期职位', e4o: '销售、Apple 专员、IT 支持、行政、印刷主管',
@@ -60,7 +60,7 @@
     e4c: '技术支持，Machines，Apple 优质经销商（2013–2014）。',
     e4d: 'Apple 销售专员，Harvey Norman（2012–2013）：产品演示与经销团队培训。',
     e4e: '销售主管，Challenger IT Megastore（2009–2011）：带领 5 人以上销售团队。',
-    e5y: '教育', e5t: 'SPM 马来西亚教育文凭，SMK Sri Sentosa，2010',
+    e5y: '教育', e5t: 'SPM 马来西亚教育文凭，SMK Sri Sentosa，2008',
     e5o: 'Apple Champion Program，Apple 马来西亚，2013 · 2025 年起自学 AI 视觉创作与网站搭建',
     e5a: '工具：Excel（薪资模型）· Google Workspace · Cloudbeds PMS · Booking.com、Agoda、Expedia · Premiere Pro · After Effects · CapCut · ChatGPT · Claude · Google Flow',
     dEy: '工作信息', dH: '工作信息',
@@ -76,7 +76,7 @@
     p3t: 'AURACELL · 落地页', p3m: '护肤品上市网站', p4t: 'AI 叙事系列', p4m: '导演 · Google Flow、ChatGPT', p4n: '4 帧',
     p7t: 'MIRALUNE · 品牌识别', p7m: '自主概念 · 护肤品牌', p7n: '8 张', p5t: 'OLAFI · 品牌识别', p5m: '品牌概念', p5n: '2 张', p6t: '这个网站', p6m: '设计与搭建 · AI 辅助编程', p6n: '你正在看',
     prevP: '上一个作品', nextP: '下一个作品', prevL: '上一张', nextL: '下一张', closeL: '关闭',
-    audL: '以谁的角度看', audH: '会改变标题、成果顺序和 WhatsApp 开场语。', aHR: 'HR / 招聘', aF: '创始人', aC: '创意', aK: '客户', wP: '2024 年起我同时负责视觉营销：双语推广、品牌影片和 AI 搭建的网站。点开任意作品查看完整内容。',
+    audL: '以谁的角度看', audH: '会改变标题、成果顺序和 WhatsApp 开场语。', aHR: 'HR / 招聘', aF: '创始人', aC: '创意', aK: '客户', wP: '2024 年 9 月起我同时负责视觉营销：双语推广、品牌影片和 AI 搭建的网站。点开任意作品查看完整内容。',
     v1L: 'Xavier Studio 宣传片', v2L: 'AURACELL 护肤品产品影片', play: '播放', pause: '暂停',
     w1: 'Xavier Studio · 宣传片', w1s: 'Melvin 导演并剪辑',
     w2: 'AURACELL · 产品影片', w2s: '护肤品上市影片 · Melvin 导演，AI 生成画面',
@@ -88,12 +88,12 @@
     b1: '下载简历 PDF', b2: '保存联系人',
     f1: 'Melvin Pang · 简历 · 2026 年 10 月更新', f2: '雇主名称与推荐人可应要求提供。', f3: '回到顶部',
     wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？',
-    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261014-2332', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
+    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261018-1259', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
   };
   var ENX = {
     title: doc.title, hide: 'Hide the roles', menuClose: 'Close', vidErr: 'This browser could not play the video. Try another browser.', pause: 'Pause', copied: 'WeChat ID copied: ',
     wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
-    cv: 'assets/Melvin-Pang-CV.pdf?v=20261014-2332'
+    cv: 'assets/Melvin-Pang-CV.pdf?v=20261018-1259'
   };
   var AUD = {
     en: {
@@ -453,7 +453,7 @@
   var fallback = setTimeout(function () { root.classList.add('rv-all'); }, 6000);
   function loadAnime(cb) {
     if (window.anime && window.anime.animate) return cb();
-    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261014-2332'; sc.async = true;
+    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261018-1259'; sc.async = true;
     sc.onload = cb; sc.onerror = function () { root.classList.add('rv-all'); };
     doc.head.appendChild(sc);
   }
