@@ -35,7 +35,7 @@
     r3d: '带领 10–20 人的运营团队，负责入住、客房周转、清洁与安保标准，并担任客人、业主与现场团队的 24 小时应急联系人。',
     r3r: '三年半里，每一起突发事件都在 15 分钟内响应；同期物业组合从不到 100 个增长到 200 多个。',
     r4u: '平均入住率', r4t: '全面负责损益的精品度假村', r4m: 'The Acres Resort · Prunus Hotels · 马来西亚 · 2019–21',
-    r4d: '制定预算，负责收入与成本，并在 Cloudbeds、Booking.com、Agoda、Expedia 和 Traveloka 上管理房价与分销，带领 7 个部门共 20 名员工。',
+    r4d: '制定预算，负责收入与成本，制定房价，通过 Cloudbeds 实现 100% 直订，带领 7 个部门共 20 名员工。',
     r4r: '平均入住率 80% 以上；2020–21 年封锁停业期间，物业持续维护并完成升级。',
     eEy: '履历', y1: '2021.09 – 2026.08', y2: '2019.10 – 2021.08', y3: '2016.03 – 2019.10', eH: '职业经历，<em>按时间排列。</em>', eP: '雇主名称与推荐人可应要求提供。',
     e1t: '人事招聘与行政经理', e1o: '区域贸易集团，约 1,000 名员工 · 柬埔寨、菲律宾、新加坡 · 名称可应要求提供',
@@ -48,11 +48,11 @@
     e1f: '借助 AI 工具，对照中文母本审核七语种技术出版物，付印前发现整页缺失。',
     e2t: '总经理', e2o: 'The Acres Resort · Prunus Hotels · 马来西亚',
     e2a: '全面管理 15 房度假村，直接向业主汇报。',
-    e2b: '负责 Cloudbeds、Booking.com、Agoda、Expedia 和 Traveloka 的房价与分销。',
+    e2b: '通过 Cloudbeds 负责房价与预订，100% 直订，无 OTA 佣金。',
     e2c: '承办婚礼与企业活动；人手不足时亲自支援厨房与客房部。',
     e3t: '运营经理 / 酒店经理', e3o: 'GOGOTEL Hospitality · 马来西亚巴生谷',
     e3a: '负责短租物业组合的日常运营，是客人、团队与业主的 24 小时应急联系人。',
-    e3b: '负责清洁与安保标准、人事、PMS 系统与线上订房渠道。',
+    e3b: '负责清洁与安保标准、人事、PMS 系统及 OTA 渠道（Booking.com、Agoda、Expedia、Traveloka）。',
     e4t: '早期职位', e4o: '销售、Apple 专员、IT 支持、行政、印刷主管',
     show: '展开五个职位', hide: '收起职位',
     e4a: '主管，Oug Print（2014–2015）：带领 10 人以上团队，负责印刷排期、质量、招聘与考核。',
@@ -88,12 +88,12 @@
     b1: '下载简历 PDF', b2: '保存联系人',
     f1: 'Melvin Pang · 简历 · 2026 年 10 月更新', f2: '雇主名称与推荐人可应要求提供。', f3: '回到顶部',
     wa: 'Melvin 你好，我看了你的简历，想和你聊聊一个职位，这周什么时候方便？',
-    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261018-1259', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
+    cv: 'assets/Melvin-Pang-CV-zh.pdf?v=20261020-2130', vidErr: '此浏览器无法播放该视频，请换用其他浏览器。'
   };
   var ENX = {
     title: doc.title, hide: 'Hide the roles', menuClose: 'Close', vidErr: 'This browser could not play the video. Try another browser.', pause: 'Pause', copied: 'WeChat ID copied: ',
     wa: 'Hi Melvin, I saw your CV and would like to talk about a role. When are you free this week?',
-    cv: 'assets/Melvin-Pang-CV.pdf?v=20261018-1259'
+    cv: 'assets/Melvin-Pang-CV.pdf?v=20261020-2130'
   };
   var AUD = {
     en: {
@@ -453,7 +453,7 @@
   var fallback = setTimeout(function () { root.classList.add('rv-all'); }, 6000);
   function loadAnime(cb) {
     if (window.anime && window.anime.animate) return cb();
-    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261018-1259'; sc.async = true;
+    var sc = doc.createElement('script'); sc.src = 'assets/js/anime.min.js?v=20261020-2130'; sc.async = true;
     sc.onload = cb; sc.onerror = function () { root.classList.add('rv-all'); };
     doc.head.appendChild(sc);
   }
